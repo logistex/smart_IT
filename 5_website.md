@@ -826,6 +826,9 @@
     - `Download Zip` 항목을 클릭하면 내 컴퓨터로 다운로드 가능함
 - 완성된 웹 사이트는 [https://logistex.github.io/WEB/](https://logistex.github.io/WEB/)에서 확인할 수 있음    
 
+- 엄청나게 **축하!**  
+  ![축하](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7710.jpeg)
+
 [![going home](https://user-images.githubusercontent.com/10287629/104116490-67e3a180-535c-11eb-89c0-9d1a34281e97.gif)
 ](https://logistex.github.io/smart_IT/)
 
