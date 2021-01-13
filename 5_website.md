@@ -538,17 +538,52 @@
     <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 - 올바른 목록은 전용 태그를 써서 작성해야 함  
-    - `li` 태그로 작성한 수업 목록 
+    - `li` 태그로 작성한 수업 목록   
     <p class="codepen" data-height="257" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="poExJMQ" style="height: 257px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="list.html">
       <span>See the Pen <a href="https://codepen.io/logistex/pen/poExJMQ">
       list.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
       on <a href="https://codepen.io">CodePen</a>.</span>
     </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>  
+
+    - `li` 태그로 작성한 과일 목록 
+        - 수업 목록과 과일 목록의 구분이 어려움
+        - 목록 간의 구분이 필요함
+        - 이 항목은 수업 목록이고, 이 항목은 과일 목록이라는 식으로  
+        - 부모 태그 `ul`을 써서 자식 항목을 소속시키는 방식  
+    <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="eYdPLae" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="fruits list.html">
+      <span>See the Pen <a href="https://codepen.io/logistex/pen/eYdPLae">
+      fruits list.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>    
+
+    - `ul` 태그를 사용하여 부모-자식 관계를 설정한 목록
+        - 부모 `ul` 태그 내부에 자식 `li` 태그 항목을 두는 방식
+        - 수업 `ul` 태그와 과일 `ul` 태그 사이에 빈 줄이 없어도 웹 화면에서 빈 줄이 표시됨
+        - 수업 `ul` 태그와 과일 `ul` 태그 사이에 빈 줄을 두는 방식이 코드의 가독성을 높여줌  
+    <p class="codepen" data-height="327" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="GRjYYKK" style="height: 327px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="ul li.html">
+      <span>See the Pen <a href="https://codepen.io/logistex/pen/GRjYYKK">
+      ul li.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>    
+
+- `li` 태그는 부모 `ul` 태그를 항상 가지는 방식으로 사용함
+    - 상황에 따라서 부모-자식 관계를 자유롭게 맺는 태그가 아니라
+    - 고정적으로 부모-자식 관계를 필수적으로 맺는 태그에 해당함
+
+- 그런데, 수업의 목록 항목 개수가 무지 많다면?
+    - 모든 항목의 번호를 사람이 일일이 지정해야 할까?
+    - 자동적으로 번호가 지정된다면 편리하지 않을까?  
+    <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="wvzYYKW" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="ol.html">
+      <span>See the Pen <a href="https://codepen.io/logistex/pen/wvzYYKW">
+      ol.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
     <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-    - `li` 태그로 작성한 과일 목록  
     
-
 
 [![going home](https://user-images.githubusercontent.com/10287629/104116490-67e3a180-535c-11eb-89c0-9d1a34281e97.gif)
 ](https://logistex.github.io/smart_IT/)
