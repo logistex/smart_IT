@@ -591,13 +591,140 @@
 
 - 최종적인 코드
     - 과일 목록은 파일에서 제거
-    - 수업 목록만 남긴 코드  
+    - 수업 목록 `ol` 태그로 변경하여 남긴 코드  
     <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="LYRggbv" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="ol final.html">
       <span>See the Pen <a href="https://codepen.io/logistex/pen/LYRggbv">
       ol final.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
       on <a href="https://codepen.io">CodePen</a>.</span>
     </p>
     <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+## 문서 구조와 수퍼 스타들
+- 우리는 이미 HTML 문법 공부를 완료했음
+    - HTML 문장 만드는 방법, 즉 HTML 문법 공부를 완료했음
+    - HTML 문법에 더 복잡한 규칙은 없음  
+    ![HTML 문법 공부를 완료](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7668.png)
+
+- 웹 문서의 구조
+    - 문장이 모여서 페이지를 구성함
+    - 페이지가 모여서 책을 구성함
+    - 책에는 표지가 있어야 하고,  
+      표지에는 제목과 저자가 표기되어야 함  
+    ![](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7669.png)  
+      
+- 웹 문서의 구조를 만드는 방법
+    - 정보를 정리정돈하기 위한 체계, 즉 구조가 필요함
+    - HTML 태그 중에서 가장 많이 사용되는 수퍼스타들도 공부할 예정  
+    ![](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7664.png)
+
+- 우리가 만든 웹 페이지와 다른 웹 페이지를 비교  
+    - 다른 웹 페이지는 탭에 제목이 잘 정리되어 표시되었음
+    - 우리 웹 페이지는 탭에 파일 경로가 표시되었음  
+    - 구글에서 `html title` 검색
+    ![](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7665.png)
+
+- `title` 태그 활용
+    ```html
+    <title>WEB1 - html</title>
+    ``` 
+    - `title` 태그는 검색 엔진이 웹 페이지를 분석할 때, 중요하게 취급하는 태그
+    - 모든 웹 문서에 반드시 포함되어야 할 중요한 태그
+    <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="XWjxxYo" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="title.html">
+      <span>See the Pen <a href="https://codepen.io/logistex/pen/XWjxxYo">
+      title.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>    
+
+- 웹 문서의 인코딩 방식을 브라우저에게 알리는 태그
+    - 인코딩: 문서에 포함된 문자를 암호화하는 방식에는 여러 종류가 있지만,  
+      최근에는 `UTF-8` 방식이 표준임 
+    - 웹 문서 작성할 때 사용한 인코딩 방식과  
+      웹 브라우저가 해석할 때 사용하는 인코딩 방식이  
+      서로 다르면 웹 브라우저에서 글자가 깨져서 보임  
+      ![](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7666.png)
+    
+    - 웹 문서를 작성할 때 사용한 인코딩 방식이 'UTF-8'임을 확인  
+      ![](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7667.png)
+      
+    - 웹 브라우저에게 웹 문서의 인코딩 방식이 `UTF-8`임을 신고  
+        ```html
+        <meta charset="utf-8">
+        ```
+        <p class="codepen" data-height="241" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="jOMeedz" style="height: 241px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="charset.html">
+          <span>See the Pen <a href="https://codepen.io/logistex/pen/jOMeedz">
+          charset.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+          on <a href="https://codepen.io">CodePen</a>.</span>
+        </p>
+        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>    
+    
+- `title`과 `meta` 태그의 공통점  
+    ```html
+        <title>WEB1 - html</title>
+        <meta charset="utf-8">
+    ```
+    - 두 태그는 본문이 아님
+    - HTML을 만든 사람들은  
+      본문과 본문을 설명하는 정보를 각기 다른 태그로 분리해서  
+      정리정돈하는 것이 바람직하다고 생각했음
+      
+- 문서의 구조를 처리하는 태그
+    - 본문을 가두는 `body` 태그
+    - 본문을 설명하는 `head` 태그  
+    <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="ExgddqB" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="head body.html">
+      <span>See the Pen <a href="https://codepen.io/logistex/pen/ExgddqB">
+      head body.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>    
+
+- `!doctype` 및 `html` 태그    
+    - HTML 문서임을 표시하는 `!doctype html`  
+        - 문서 유형을 표시하는 태그
+        - 유일하게 '!'로 시작하는 태그
+        - 문서의 맨 앞에 위치시킴
+        - 닫는 태그 없이 단독으로 사용
+    - 전체 문서를 가두는 `html` 태그
+        - `html` 태그의 자식 태그는 `head`와 `body` 태그
+        - `html` 태그는 여는 태그와 닫는 태그로 구성됨
+
+- 결론적으로 웹 문서의 완전한 구조는 다음과 같음    
+    ```html
+    <!doctype html>
+    <html> 
+        <head>
+            ...
+        </head>
+        <body>
+            ...
+        </body>
+    </html>
+    ```   
+    <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="RwGevea" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="doctype html.html">
+      <span>See the Pen <a href="https://codepen.io/logistex/pen/RwGevea">
+      doctype html.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>    
+    
+- 전 세계의 모든 웹 문서가 공통적으로 준수하는 표준 구조를 공부했음
+    ```html
+    <!doctype html>
+    <html> 
+        <head>
+            <title>...</title>
+            <meta charset="utf-8">
+            ...
+        </head>
+        <body>
+            ...
+        </body>
+    </html>
+    ```   
+    ![웹 문서 구조](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7671.png)
+
+
+
 
 [![going home](https://user-images.githubusercontent.com/10287629/104116490-67e3a180-535c-11eb-89c0-9d1a34281e97.gif)
 ](https://logistex.github.io/smart_IT/)
