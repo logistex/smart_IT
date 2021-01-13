@@ -24,6 +24,7 @@
 - 지원하게된 사연
 - 걱정과 고민
 - 기대와 다짐
+- ...
 
 ![](https://gpimg.godpeople.com/2020/04/sns_200429.jpg)
 
@@ -66,6 +67,7 @@ Office: 82-2-2290-2385
 - 지원하게된 사연
 - 걱정과 고민
 - 기대와 다짐
+- ...
 
 [![going home](https://user-images.githubusercontent.com/10287629/104116490-67e3a180-535c-11eb-89c0-9d1a34281e97.gif)
 ](https://logistex.github.io/smart_IT/)
