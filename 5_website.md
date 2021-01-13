@@ -576,6 +576,8 @@
 - 그런데, 수업의 목록 항목 개수가 무지 많다면?
     - 모든 항목의 번호를 사람이 일일이 지정해야 할까?
     - 자동적으로 번호가 지정된다면 편리하지 않을까?  
+    - 아래 코드에서 과일 목록 코드에는 번호를 따로 지정하지 않았지만,  
+      자동적으로 번호가 부여되어 표시되었음  
     <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="wvzYYKW" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="ol.html">
       <span>See the Pen <a href="https://codepen.io/logistex/pen/wvzYYKW">
       ol.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
@@ -583,7 +585,19 @@
     </p>
     <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-    
+- 요약
+    - 목록과 관련한 태그 세 개를 공부했음
+    - 목록 항목을 정의하는 `li` 태그
+
+- 최종적인 코드
+    - 과일 목록은 파일에서 제거
+    - 수업 목록만 남긴 코드  
+    <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="LYRggbv" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="ol final.html">
+      <span>See the Pen <a href="https://codepen.io/logistex/pen/LYRggbv">
+      ol final.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 [![going home](https://user-images.githubusercontent.com/10287629/104116490-67e3a180-535c-11eb-89c0-9d1a34281e97.gif)
 ](https://logistex.github.io/smart_IT/)
