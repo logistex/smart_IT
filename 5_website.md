@@ -764,7 +764,52 @@
     - 링크가 우리를 어디로 인도할까요?
     - 관광만 하지 말고, 여행을 하세요!
     - 클릭 가는데로 가다보면 길을 잃고 헤멜 수 있어요.
-    
+
+
+## 웹 사이트 완성
+- 웹 문서와 웹 사이트
+    - 지금까지 웹 문서(페이지) 저작 방법을 배웠음  
+      ![웹 문서 저작](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/8130.png)
+    - 링크로 문서와 문서를 연결하는 방법도 배웠음  
+      ![링크 연결](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7707.jpeg)
+    - 문서를 모아서 제본하면 책이 완성되듯,  
+      웹 문서를 링크로 모으면 웹 사이트가 완성됨  
+      ![웹 문서 연결](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7709.jpeg)
+
+- 완성된 페이지  
+    <p class="codepen" data-height="401" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="MWjPxGN" style="height: 401px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="index.html">
+      <span>See the Pen <a href="https://codepen.io/logistex/pen/MWjPxGN">
+      index.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+- 웹 사이트 작성 순서
+    - 웹 사이트 전체의 제목을 "WEB"으로 작성  
+      ![전체 제목 WEB](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7701.png)
+    - 링크 설계   
+      ![링크 설계](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7702.png)
+    - `1_html.html` 수정하여 링크 작성  
+        <p class="codepen" data-height="367" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="XWjxGym" style="height: 367px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="1_html.html">
+          <span>See the Pen <a href="https://codepen.io/logistex/pen/XWjxGym">
+          1_html.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+          on <a href="https://codepen.io">CodePen</a>.</span>
+        </p>
+        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>    
+    - `1_html.html`을 복사하여 적절히 수정하여 나머지 문서를 완성
+    - `2_css.html` 완성된 코드  
+        <p class="codepen" data-height="391" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="LYRgaoL" style="height: 391px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="2_css.html">
+          <span>See the Pen <a href="https://codepen.io/logistex/pen/LYRgaoL">
+          2_css.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+          on <a href="https://codepen.io">CodePen</a>.</span>
+        </p>
+        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>      
+    - `3_javascript.html` 완성된 코드  
+        <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="MWjPxNw" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="3_javascript.html">
+          <span>See the Pen <a href="https://codepen.io/logistex/pen/MWjPxNw">
+          3_javascript.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+          on <a href="https://codepen.io">CodePen</a>.</span>
+        </p>
+        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 
 [![going home](https://user-images.githubusercontent.com/10287629/104116490-67e3a180-535c-11eb-89c0-9d1a34281e97.gif)
