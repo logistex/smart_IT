@@ -776,19 +776,29 @@
       웹 문서를 링크로 모으면 웹 사이트가 완성됨  
       ![웹 문서 연결](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7709.jpeg)
 
-- 완성된 페이지  
-    <p class="codepen" data-height="401" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="MWjPxGN" style="height: 401px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="index.html">
-      <span>See the Pen <a href="https://codepen.io/logistex/pen/MWjPxGN">
-      index.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
-      on <a href="https://codepen.io">CodePen</a>.</span>
-    </p>
-    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+- 우리의 웹 사이트는 모두 4 개의 웹 문서로 구성됨 
+    - `index.html`  
+        웹 3대 기술을 총괄하는 "WEB" 소개 문서
+    - `1_html.html`  
+        첫번째 웹 기술로서 "HTML" 소개 문서
+    - `2_css.html`  
+        두번째 웹 기술로서 "CSS" 소개 문서
+    - `3_javascript.html`  
+        세번째 웹 기술로서 "JavaScript" 소개 문서
+
 - 웹 사이트 작성 순서
     - 웹 사이트 전체의 제목을 "WEB"으로 작성  
       ![전체 제목 WEB](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7701.png)
     - 링크 설계   
       ![링크 설계](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7702.png)
-    - `1_html.html` 수정하여 링크 작성  
+    - 완성된 `index.html`   
+        <p class="codepen" data-height="401" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="MWjPxGN" style="height: 401px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="index.html">
+          <span>See the Pen <a href="https://codepen.io/logistex/pen/MWjPxGN">
+          index.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+          on <a href="https://codepen.io">CodePen</a>.</span>
+        </p>
+        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+    - 완성된 `1_html.html`  
         <p class="codepen" data-height="367" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="XWjxGym" style="height: 367px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="1_html.html">
           <span>See the Pen <a href="https://codepen.io/logistex/pen/XWjxGym">
           1_html.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
@@ -796,21 +806,25 @@
         </p>
         <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>    
     - `1_html.html`을 복사하여 적절히 수정하여 나머지 문서를 완성
-    - `2_css.html` 완성된 코드  
+    - 완성된 `2_css.html`  
         <p class="codepen" data-height="391" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="LYRgaoL" style="height: 391px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="2_css.html">
+
           <span>See the Pen <a href="https://codepen.io/logistex/pen/LYRgaoL">
           2_css.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
           on <a href="https://codepen.io">CodePen</a>.</span>
         </p>
         <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>      
-    - `3_javascript.html` 완성된 코드  
+    - 완성된 `3_javascript.html`  
         <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="MWjPxNw" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="3_javascript.html">
           <span>See the Pen <a href="https://codepen.io/logistex/pen/MWjPxNw">
           3_javascript.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
           on <a href="https://codepen.io">CodePen</a>.</span>
         </p>
         <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-
+- 완성된 코드는 [https://github.com/logistex/WEB](https://github.com/logistex/WEB)에서 일괄 다운로드 가능함  
+    - 위 링크로 접속하여, 우측 상단에 보이는 초록색 `code`를 클릭하면, 보이는 메뉴에서  
+    - `Download Zip` 항목을 클릭하면 내 컴퓨터로 다운로드 가능함
+- 완성된 웹 사이트는 [https://logistex.github.io/WEB/](https://logistex.github.io/WEB/)에서 확인할 수 있음    
 
 [![going home](https://user-images.githubusercontent.com/10287629/104116490-67e3a180-535c-11eb-89c0-9d1a34281e97.gif)
 ](https://logistex.github.io/smart_IT/)
