@@ -723,7 +723,48 @@
     ```   
     ![웹 문서 구조](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7671.png)
 
-
+## HTML 태그의 제왕
+![HTML 태그의 제왕](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7683.jpeg)
+- 제왕이라 할만한 태그
+    - 모든 웹 항해의 연결 수단
+    - 검색 엔진의 존재 근거
+    - 도시의 길이자, 인체의 혈관  
+      ![도시의 길](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7686.jpeg)
+    - 전 세계 웹 문서가 고립을 면하는 이유
+    - 우리가 하루에 백번도 넘게 사용하는 태그 
+    - 웹을 웹답게 만드는 가장 중요한 태그
+    - 클릭하면 순식간에 연결  
+      ![클릭하면 연결](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7688.jpeg)
+    - "HTML"의 "HT" = "HyperText"  
+      ![HyperText](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7689.jpeg)
+    - 이 태그의 이름은 "anchor(닻)"에서 따온 `a`
+    - 정보의 바다에 정박한다는 시적인 표현  
+      ![anchor](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7690.jpeg)
+    - 이 태그를 우리는 **링크(link, 연결)** 태그라고 부름
+    - HTML 공식 문서에 대한 링크는 [https://www.w3.org/TR/html5/](https://www.w3.org/TR/html5/)임
+    - 구글에서 `html link` 검색
+    
+- 링크 태그 적용
+    - 아래 코드에서 링크 태그가 적용된 부분에 주목
+    - `<a>...</a>` 태그를 쓰면, `...`으로 표시된 문구에 링크가 걸림
+    - `href` 속성은  **H**yperText **Ref**erence의 약자
+    - `target="_blank`는 링크를 클릭했을 때,  
+      새 창에서 페이지가 열리게 하는 속성
+    - `title` 속성은 이 링크가 어떤 내용을 담고 있는지를  
+      툴팁으로 보여주는 기능
+        <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="KKgGEVG" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="link tag.html">
+          <span>See the Pen <a href="https://codepen.io/logistex/pen/KKgGEVG">
+          link tag.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+          on <a href="https://codepen.io">CodePen</a>.</span>
+        </p>
+        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>    
+    
+- 링크를 통한 정보 탐험
+    - 지식의 대중화, 학문의 민주화를 열어준 새로운 세상
+    - 링크가 우리를 어디로 인도할까요?
+    - 관광만 하지 말고, 여행을 하세요!
+    - 클릭 가는데로 가다보면 길을 잃고 헤멜 수 있어요.
+    
 
 
 [![going home](https://user-images.githubusercontent.com/10287629/104116490-67e3a180-535c-11eb-89c0-9d1a34281e97.gif)
