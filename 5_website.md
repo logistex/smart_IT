@@ -484,16 +484,16 @@
     - 원하는 사진을 선택하고, `이미지를 다른 이름으로 저장` 메뉴를 써서 내 컴으로 다운로드
     - 작성 중인 웹 문서와 같은 폴더로 잘라내서 붙여넣은 후
     - `img` 코드를 활용  
-    <img src=".\photo-1610146140168-eb3b4219a80f.jpg">
+    <img src="./photo-1610146140168-eb3b4219a80f.jpg">
 
 - 이미지 크기 조절
     - 이미지 주소를 지정하는 `src` 속성이 존재한다면, ...
     - 이미지 크기를 지정하는 속성도 있을테지 ...
     - 구글에서 `html img size attribute` 검색
         ```html
-        <img width="30%" src=".\photo-1610146140168-eb3b4219a80f.jpg">
+        <img width="30%" src="./photo-1610146140168-eb3b4219a80f.jpg">
         ```        
-      <img width="30%" src=".\photo-1610146140168-eb3b4219a80f.jpg">
+      <img width="30%" src="./photo-1610146140168-eb3b4219a80f.jpg">
     
 - 높은 곳까지 올라온 여러분에게 박수를!
     ![](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7662.png)
