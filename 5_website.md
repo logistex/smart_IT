@@ -827,9 +827,19 @@
 - 완성된 웹 사이트는 [https://logistex.github.io/WEB/](https://logistex.github.io/WEB/)에서 확인할 수 있음    
 
 - 엄청나게 **축하!**  
-  ![축하](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7710.jpeg)
+    - 코딩에 대한 두려움을 떨쳐내는 계기가 되었기를!
+    - 코딩을 통한 흥분과 열광을 경험하시길! 
+    - 코딩이 우리에게 펼쳐줄 새로운 세상을 만끽하기를!
+    ![축하](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7710.jpeg)
+
+- 본 교안의 원전
+    - egoing, [WEB1 - HTML & Internet](https://opentutorials.org/course/3084), [opentutorials.org](https://opentutorials.org/), 2020-07-28.
+    - 본 교안은 원전을 미세하게 수정하여 작성하였음
+    - 원전의 내용 구성 및 강의 진행 방식이 매우 훌륭하고 탁월함
+    - 신입생 특강은 완주하는 학생이 많지 않음
+    - 완주하지 못하더라도, 원전에서 충분히 자습할 수 있다는 점을 고려했음
+    - 원전에서는 동영상 강의도 제공되므로 적극 활용하기 바람  
+    [![](https://s3.ap-northeast-2.amazonaws.com/opentutorials-user-file/course/94.png)](https://opentutorials.org/)
 
 [![going home](https://user-images.githubusercontent.com/10287629/104116490-67e3a180-535c-11eb-89c0-9d1a34281e97.gif)
 ](https://logistex.github.io/smart_IT/)
-
-[![](https://s3.ap-northeast-2.amazonaws.com/opentutorials-user-file/course/94.png)](https://opentutorials.org/)
