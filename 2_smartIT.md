@@ -44,7 +44,8 @@
             <td style="text-align: center; vertical-align: middle;"><strong>비전 <br>체계</strong></td>
             <td>
                 <br>
-                <img width="100%" src="https://user-images.githubusercontent.com/10287629/104117755-12f95880-5367-11eb-99f0-5a305d1a0630.png">
+                <!--<img width="100%" src="https://user-images.githubusercontent.com/10287629/104117755-12f95880-5367-11eb-99f0-5a305d1a0630.png">-->
+                <img width="100%" src="https://user-images.githubusercontent.com/10287629/104703244-6ea65600-575a-11eb-85b4-38c22a51cbb7.png">
                 <br>
             </td>
         </tr>
