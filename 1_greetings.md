@@ -26,6 +26,47 @@
 - 기대와 다짐
 - ...
 
+![](https://gpimg.godpeople.com/2020/04/sns_200429.jpg)
 
-![0005720_coming-soon-page_550](https://user-images.githubusercontent.com/10287629/104704273-c6918c80-575b-11eb-9fca-8bff77df20c5.jpeg)
+## 선생님 인사
+![신교수 박사모자](https://user-images.githubusercontent.com/10287629/103825781-da345780-50b8-11eb-8f34-1e1a98b2049e.png)
+- 이름: 신해웅(辛海雄)
+- 최근 강의하는 과목
+  - 파이썬
+  - [장고 웹 개발](http://logistex2020.pythonanywhere.com/)
+  - [데이터 시각화](http://logistex2020.pythonanywhere.com/chart/ticket-class/3/)
+- 좌우명
+
+![Love it](https://user-images.githubusercontent.com/10287629/104137834-14686680-53e3-11eb-86a2-1f678016c49c.png)
+
+- 요즘 고민
+    - *이마가 점점 넓어진다.*
+    - *치매가 걱정스럽다.*
+    - *세월이 야속하다.*
+    - *독수리 오형제가 애처롭다.*  
+    ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK3v1Nn1KltTVE1Kh2nXFIhaJ-_MTWfCL7JQ&usqp=CAU)
+
+- 고민의 변화  
+
+  - 10 대: *"왜 사는 거지?"*  
+  - 20 대: *"어떻게 살아야 하지?"*  
+  - 30 대: *"어떻게든 살아야 하겠지?"*  
+  - 40 대: *"이렇게 사는 게 맞나?"*  
+  - 50 대: *"언제까지 이렇게 살아야 하나?"*
+
+- 연락처
+> Haewoong Shin, Ph.D.  
+Professor, Dept. of Smart IT, Hanyang Women's University  
+200, Salgoji-gil, Seongdong-Ku, Seoul, 04763, Republic of Korea  
+e-mail: logistex@hywoman.ac.kr  
+Cellular: 82-10-3770-2210    
+Office: 82-2-2290-2385  
+
+## 학생 인사
+- 이름, 출신고등학교(지역, 졸업 연도)
+- 지원하게된 사연
+- 걱정과 고민
+- 기대와 다짐
+- ...
+
 [![going home](https://user-images.githubusercontent.com/10287629/104793991-511fcd80-57e8-11eb-86c8-27356c8dd83d.png)](https://logistex.github.io/smart_IT/)
