@@ -28,7 +28,8 @@
       3D프린터-로봇 / 증강-가상-현실 / 플랫폼 / 블록체인-핀테크 / CPS / 게임화
 - 예) 자동차 네비게이션 기술
 
-![4thIR](https://user-images.githubusercontent.com/10287629/103890444-7008ca80-512b-11eb-8434-a951e8f71d25.png)
+![4thIRnew](https://user-images.githubusercontent.com/10287629/105181648-69d50e00-5b6f-11eb-9882-5a74fb100964.png)
+
 
 ## 학과의 정체성
 
