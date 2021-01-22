@@ -136,13 +136,285 @@
     </p>
     <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 - 축하!
-![0005720_coming-soon-page_550](https://user-images.githubusercontent.com/10287629/104704273-c6918c80-575b-11eb-9fca-8bff77df20c5.jpeg)
-
-<p class="codepen" data-height="169" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="vYXzxjq" style="height: 169px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="emphasize.html">
+- HTML 문서에서 
+    - 공백을 반복해도 무효
+    - 줄 바꿈을 해도 무효
+    - 그럼 어떻게 하나요 ... ?
+    - 해결 방법은 뒤에 공부할 예정
+- 강조 표시
+    - 'creating web pages'를 강조하려면, `<strong></strong>` 태그를 적용
+    - 태그마다 역할이 지정되어 있다는 점을 인식해야 함
+- 추가적 강조    
+    - 'creating web pages'에서 'web'을 더 강조하려면, `<u></u>` 태그를 적용  
+    <p class="codepen" data-height="169" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="vYXzxjq" style="height: 169px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="emphasize.html">
       <span>See the Pen <a href="https://codepen.io/logistex/pen/vYXzxjq">
       emphasize.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
       on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>    
+- 코딩 내용을 반추
+    - 태그(tag) 
+        - 옷에 붙어 있는 태그
+        - SNS에서 사용하는 해시 태그
+        - HTML 태그  
+        ![태그 위력](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7596.jpeg)
+    - 쌍을 이루는 태그
+        - 여는 태그
+        - 닫는 태그  
+    - 쌍이 없는 단독 태그도 있음
+    - 태그는 중첩 가능함
+- HTML 태그의 바다를 경험한 여러분에게 축하!  
+  ![태그로 다이빙](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7597.jpeg)
+- 한글이 깨지는 경우  
+    - 윈도우는 기본적으로 "cp949"라는 인코딩 방식을 사용함
+    - cmd 창을 열어서 `chcp` 명령을 실행시켜보면 확인 가능함
+    - 윈도우에서 제공되는 메모장으로 `html.html` 파일을 열어보면 한글이 깨짐
+    - 윈도우 기본 코드 페이지를 "utf-8"로 변경하려면  
+        - 일회성 변경: cmd 창에서 `chcp 65001` 명령을 실행하면 됨
+        - 영구적 변경: 레지스트리를 수정해야 하는데,  
+          [윈도10 CMD 코드 페이지 변경](https://extrememanual.net/12502) 참고
+    - `<meta charset="utf-8">` 코드를 `1.html` 앞 부분에 추가
+    - Atom에서 저장할 때 사용하는 인코딩 방식은 "utf-8"
+    - 웹 브라우저에서 파일을 오픈할 때 사용할 인코딩 방식을 동일하게 지정
+    - 요약
+        - html 파일을 저장할 때 사용한 인코딩 방식과  
+        - 웹 브라우저에게 알려줄 인코딩 방식을 일치시켜야 함 
+    
+## 혁명적 변화의 시대
+- 시험에 대한 오해
+    - "중요한 것은 어렵고, 쉬운 것은 사소하다?"
+    - "쉬운 것은 시험에 잘 안나오니까!"
+    - 시험의 역기능 혹은 부작용
+- 시험의 본질
+    - 얼마나 잘 습득했는지를 평가하려는 것이 본질
+    - 상대평가 체제에서 순위 변별력을 담보하기 위한 본말의 전도
+- 쉽지만, (쉽고 중요한) 기본에 충실해야!
+    - 쉽지만 중요한 기본 개념이 실무 기술의 대부분을 차지함
+    - 공부가 깊어질수록 점점 어려운 것을 배우게 되지만, 기초가 중요함  
+    ![](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7825.jpeg)
+- 지금가지 우리가 배운 것
+    - HTML 태그 2 개
+    - 태그를 배우기 전과 후의 여러분은 크게 달라졌음 
+    - 너무 심한 과장일까?
+    ![배움 전후](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7606.jpeg)    
+- 과장이 아님!
+    - 엄청 복잡한 HTML 문서를 해독하는 과정을 통하여 과장이 아니라는 점을 설명
+    - 엄청 복잡한 HTML 문서를 획득
+        - [https://www.w3.org/](https://www.w3.org/) 방문  
+            ![w3c](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7608.jpeg)
+        - W3C(The World Wide Web Consortium)라는 웹 표준화 기구의 홈페이지
+        - W3C에서 HTML 문법의 표준을 결정함
+        - W3C 웹 페이지를 오른쪽 마우스로 클릭하여 `페이지 소스보기(View Page Source)`  
+          ![보이는 소스](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7610.png)
+        - "모르는 내용이 많군요! 그래서 불편하죠."
+- 복잡한 HTML 문서를 해독하는 과정
+    - 위에서 `<h1>`으로 시작하는 코드를 살펴보면, 여전히 복잡...   
+        <div class="colorscripter-code" style="color:#010101;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; position:relative !important;overflow:auto">
+            <table class="colorscripter-code-table" style="margin:0;padding:0;border:none;background-color:#fafafa;border-radius:4px;" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td style="width:5%;padding:6px;border-right:2px solid #e5e5e5">
+                        <div style="margin:0;padding:0;word-break:normal;text-align:right;color:#666;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%">
+                        <div style="line-height:130%">1</div><div style="line-height:130%">2</div><div style="line-height:130%">3</div><div style="line-height:130%">4</div><div style="line-height:130%">5</div><div style="line-height:130%">6</div></div></td>
+                    <td style="width:95%;padding:6px 0;text-align:left"><div style="margin:0;padding:0;color:#010101;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#010101">&lt;</span><span style="color:#ff3399">h1</span>&nbsp;<span style="color:#0099cc">class</span>=<span style="color:#52be14">"logo"</span><span style="color:#0099cc"></span><span style="color:#010101">&gt;</span></div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#010101">&lt;</span><span style="color:#ff3399">a</span>&nbsp;<span style="color:#0099cc">tabindex</span>=<span style="color:#52be14">"2"</span><span style="color:#0099cc"></span>&nbsp;<span style="color:#0099cc">accesskey</span>=<span style="color:#52be14">"1"</span><span style="color:#0099cc"></span>&nbsp;<span style="color:#0099cc">href</span>=<span style="color:#52be14">"/"</span><span style="color:#0099cc"></span><span style="color:#010101">&gt;</span></div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#010101">&lt;</span><span style="color:#ff3399">img</span>&nbsp;<span style="color:#0099cc">src</span>=<span style="color:#52be14">"/2008/site/images/logo-w3c-mobile-lg"</span><span style="color:#0099cc"></span>&nbsp;<span style="color:#0099cc">width</span>=<span style="color:#52be14">"90"</span><span style="color:#0099cc"></span>&nbsp;<span style="color:#0099cc">height</span>=<span style="color:#52be14">"53"</span><span style="color:#0099cc"></span>&nbsp;<span style="color:#0099cc">alt</span>=<span style="color:#52be14">"W3C"</span><span style="color:#0099cc"></span>&nbsp;<span style="color:#0099cc">/</span><span style="color:#010101">&gt;</span></div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#010101">&lt;</span><span style="color:#010101">/</span><span style="color:#ff3399">a</span><span style="color:#010101">&gt;</span>&nbsp;</div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#010101">&lt;</span><span style="color:#ff3399">span</span>&nbsp;<span style="color:#0099cc">class</span>=<span style="color:#52be14">"alt-logo"</span><span style="color:#0099cc"></span><span style="color:#010101">&gt;</span>W3C<span style="color:#010101">&lt;</span><span style="color:#010101">/</span><span style="color:#ff3399">span</span><span style="color:#010101">&gt;</span>&nbsp;&nbsp;&nbsp;&nbsp;</div><div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#010101">&lt;</span><span style="color:#010101">/</span><span style="color:#ff3399">h1</span><span style="color:#010101">&gt;</span></div></div><div style="text-align:right;margin-top:-13px;margin-right:5px;font-size:9px;font-style:italic"><a href="http://colorscripter.com/info#e" target="_blank" style="color:#e5e5e5text-decoration:none">Colored by Color Scripter</a></div></td>
+                    <td style="width:5%;vertical-align:bottom;padding:0 2px 4px 0"><a href="http://colorscripter.com/info#e" target="_blank" style="text-decoration:none;color:white"><span style="font-size:9px;word-break:normal;background-color:#e5e5e5;color:white;border-radius:10px;padding:1px">cs</span></a></td></tr></table></div>
+    - 이 코드에서 `<img ...>` 부분은 그림을 표시하는 태그인데, 이를 제거하면 ...
+        <div class="colorscripter-code" style="width:100%;color:#010101;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; position:relative !important;overflow:auto"><table class="colorscripter-code-table" style="margin:0;padding:0;border:none;background-color:#fafafa;border-radius:4px;" cellspacing="0" cellpadding="0"><tr>
+      <td style="width:5%;padding:6px;border-right:2px solid #e5e5e5"><div style="margin:0;padding:0;word-break:normal;text-align:right;color:#666;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="line-height:130%">1</div><div style="line-height:130%">2</div><div style="line-height:130%">3</div><div style="line-height:130%">4</div><div style="line-height:130%">5</div></div></td>
+      <td style="width:95%;padding:6px 0;text-align:left"><div style="margin:0;padding:0;color:#010101;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#010101">&lt;</span><span style="color:#ff3399">h1</span>&nbsp;<span style="color:#0099cc">class</span>=<span style="color:#52be14">"logo"</span><span style="color:#0099cc"></span><span style="color:#010101">&gt;</span></div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#010101">&lt;</span><span style="color:#ff3399">a</span>&nbsp;<span style="color:#0099cc">tabindex</span>=<span style="color:#52be14">"2"</span><span style="color:#0099cc"></span>&nbsp;<span style="color:#0099cc">accesskey</span>=<span style="color:#52be14">"1"</span><span style="color:#0099cc"></span>&nbsp;<span style="color:#0099cc">href</span>=<span style="color:#52be14">"/"</span><span style="color:#0099cc"></span><span style="color:#010101">&gt;</span></div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#010101">&lt;</span><span style="color:#010101">/</span><span style="color:#ff3399">a</span><span style="color:#010101">&gt;</span>&nbsp;</div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#010101">&lt;</span><span style="color:#ff3399">span</span>&nbsp;<span style="color:#0099cc">class</span>=<span style="color:#52be14">"alt-logo"</span><span style="color:#0099cc"></span><span style="color:#010101">&gt;</span>W3C<span style="color:#010101">&lt;</span><span style="color:#010101">/</span><span style="color:#ff3399">span</span><span style="color:#010101">&gt;</span>&nbsp;&nbsp;&nbsp;&nbsp;</div><div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#010101">&lt;</span><span style="color:#010101">/</span><span style="color:#ff3399">h1</span><span style="color:#010101">&gt;</span></div></div><div style="text-align:right;margin-top:-13px;margin-right:5px;font-size:9px;font-style:italic"><a href="http://colorscripter.com/info#e" target="_blank" style="color:#e5e5e5text-decoration:none">Colored by Color Scripter</a></div></td>
+      <td style="width:5%;vertical-align:bottom;padding:0 2px 4px 0"><a href="http://colorscripter.com/info#e" target="_blank" style="text-decoration:none;color:white"><span style="font-size:9px;word-break:normal;background-color:#e5e5e5;color:white;border-radius:10px;padding:1px">cs</span></a></td></tr></table></div>
+    - 이 코드에서 `<a>...</a>` 부분은 링크를 연결하는 역할의 태그인데, 이를 제거하면 ...
+        <div class="colorscripter-code" style="width:100%;color:#010101;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; position:relative !important;overflow:auto"><table class="colorscripter-code-table" style="margin:0;padding:0;border:none;background-color:#fafafa;border-radius:4px;" cellspacing="0" cellpadding="0"><tr>
+      <td style="width:5%;padding:6px;border-right:2px solid #e5e5e5"><div style="margin:0;padding:0;word-break:normal;text-align:right;color:#666;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="line-height:130%">1</div><div style="line-height:130%">2</div><div style="line-height:130%">3</div></div></td>
+      <td style="width:95%;padding:6px 0;text-align:left"><div style="margin:0;padding:0;color:#010101;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#010101">&lt;</span><span style="color:#ff3399">h1</span>&nbsp;<span style="color:#0099cc">class</span>=<span style="color:#52be14">"logo"</span><span style="color:#0099cc"></span><span style="color:#010101">&gt;</span></div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#010101">&lt;</span><span style="color:#ff3399">span</span>&nbsp;<span style="color:#0099cc">class</span>=<span style="color:#52be14">"alt-logo"</span><span style="color:#0099cc"></span><span style="color:#010101">&gt;</span>W3C<span style="color:#010101">&lt;</span><span style="color:#010101">/</span><span style="color:#ff3399">span</span><span style="color:#010101">&gt;</span></div><div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#010101">&lt;</span><span style="color:#010101">/</span><span style="color:#ff3399">h1</span><span style="color:#010101">&gt;</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div></div></td>
+      <td style="vertical-align:bottom;padding:0 2px 4px 0"><a href="http://colorscripter.com/info#e" target="_blank" style="text-decoration:none;color:white"><span style="font-size:9px;word-break:normal;background-color:#e5e5e5;color:white;border-radius:10px;padding:1px">cs</span></a></td></tr></table></div>
+    - 이 코드에서 `<span>...</span>` 부분은 줄바꿈 없이 어떤 효과를 연출하기 위한 태그인데, 이를 제거하면 ...
+        <div class="colorscripter-code" style="color:#010101;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; position:relative !important;overflow:auto"><table class="colorscripter-code-table" style="margin:0;padding:0;border:none;background-color:#fafafa;border-radius:4px;" cellspacing="0" cellpadding="0"><tr>
+      <td style="width:5%;padding:6px;border-right:2px solid #e5e5e5"><div style="margin:0;padding:0;word-break:normal;text-align:right;color:#666;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="line-height:130%">1</div><div style="line-height:130%">2</div><div style="line-height:130%">3</div></div></td>
+      <td style="width:95%;padding:6px 0;text-align:left"><div style="margin:0;padding:0;color:#010101;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#010101">&lt;</span><span style="color:#ff3399">h1</span>&nbsp;<span style="color:#0099cc">class</span>=<span style="color:#52be14">"logo"</span><span style="color:#0099cc"></span><span style="color:#010101">&gt;</span></div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;&nbsp;&nbsp;W3C&nbsp;&nbsp;&nbsp;&nbsp;</div><div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#010101">&lt;</span><span style="color:#010101">/</span><span style="color:#ff3399">h1</span><span style="color:#010101">&gt;</span></div></div></td><td style="vertical-align:bottom;padding:0 2px 4px 0"><a href="http://colorscripter.com/info#e" target="_blank" style="text-decoration:none;color:white"><span style="font-size:9px;word-break:normal;background-color:#e5e5e5;color:white;border-radius:10px;padding:1px">cs</span></a></td></tr></table></div>
+    - 이 코드에서 `class="logo"` 부분은 태그에 효과를 연출하기 위한 코드인데, 이를 제거하면 ...
+        <div class="colorscripter-code" style="color:#010101;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; position:relative !important;overflow:auto"><table class="colorscripter-code-table" style="margin:0;padding:0;border:none;background-color:#fafafa;border-radius:4px;" cellspacing="0" cellpadding="0"><tr>
+      <td style="width:5%;padding:6px;border-right:2px solid #e5e5e5"><div style="margin:0;padding:0;word-break:normal;text-align:right;color:#666;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="line-height:130%">1</div><div style="line-height:130%">2</div><div style="line-height:130%">3</div></div></td>
+      <td style="width:95%;padding:6px 0;text-align:left"><div style="margin:0;padding:0;color:#010101;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#010101">&lt;</span><span style="color:#ff3399">h1</span><span style="color:#010101">&gt;</span></div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;&nbsp;&nbsp;W3C&nbsp;&nbsp;&nbsp;&nbsp;</div><div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#010101">&lt;</span><span style="color:#010101">/</span><span style="color:#ff3399">h1</span><span style="color:#010101">&gt;</span></div></div></td>
+      <td style="vertical-align:bottom;padding:0 2px 4px 0"><a href="http://colorscripter.com/info#e" target="_blank" style="text-decoration:none;color:white"><span style="font-size:9px;word-break:normal;background-color:#e5e5e5;color:white;border-radius:10px;padding:1px">cs</span></a></td></tr></table></div>
+    - 결국 다음과 같은 `<h1>` 태그만 남는다는 ...    
+        <div class="colorscripter-code" style="width:100%;color:#010101;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; position:relative !important;overflow:auto"><table class="colorscripter-code-table" style="margin:0;padding:0;border:none;background-color:#fafafa;border-radius:4px;" cellspacing="0" cellpadding="0"><tr>
+      <td style="width:5%;padding:6px;border-right:2px solid #e5e5e5"><div style="margin:0;padding:0;word-break:normal;text-align:right;color:#666;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="line-height:130%">1</div></div></td>
+      <td style="width:95%;padding:6px 0;text-align:left"><div style="margin:0;padding:0;color:#010101;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#010101">&lt;</span><span style="color:#ff3399">h1</span><span style="color:#010101">&gt;</span>W3C<span style="color:#010101">&lt;</span><span style="color:#010101">/</span><span style="color:#ff3399">h1</span><span style="color:#010101">&gt;</span></div></div></td>
+      <td style="vertical-align:bottom;padding:0 2px 4px 0"><a href="http://colorscripter.com/info#e" target="_blank" style="text-decoration:none;color:white"><span style="font-size:9px;word-break:normal;background-color:#e5e5e5;color:white;border-radius:10px;padding:1px">cs</span></a></td></tr></table></div>
+- `h1` 태그의 의미를 탐구
+    - 이 코드는 무엇을 지시하는 걸까요?
+        - 무엇을 지시하는지는 몰라도, 
+        - `h1` 태그가 열리고, 닫혔다는 것은 알겠네!
+        - `h1` 태그 내부에 'W3C'라는 단어가 표시되겠네!
+        - 이런 짐작은 가능한 상태에 여러분은 도달했음
+        - `h1` 태그가 어떤 역할을 하는지는 모름
+        - 적어도, 무엇을 모르는지는 아는 상태가 되었음
+    - 구글 검색에서 `HTML h1 tag`로 검색하면, `h1` 태그의 정체에 대해서는 순식간에 알아낼 수 있음
+        - 엄청난 검색 결과가 순식간에 나올테지만 ...
+        - 첫째 검색 결과인 [www.w3schools.com/tags/tag_hn.asp](https://www.w3schools.com/tags/tag_hn.asp) 링크로 가보면   
+          ![w3schools](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7611.png)
+        - 예제(Example)와 정의(Definition)를 볼 수 있음
+        - 정의를 먼저 보는 것보다는, 예제를 먼저 보고나서, 정의를 이해하기를 권함  
+          <p class="codepen" data-height="370" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="qBaMPWw" style="height: 370px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="qBaMPWw">
+              <span>See the Pen <a href="https://codepen.io/logistex/pen/qBaMPWw">
+              qBaMPWw</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+              on <a href="https://codepen.io">CodePen</a>.</span>
+          </p>
+          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+    - 추론
+        - `h` 뒤에 숫자가 나옴
+        - 큰 글씨부터 작은 글씨가 나열됨
+        - `h` 뒤의 숫자가 커질수록, 글씨는 작아짐
+        - 여기까지 추론이 되었다면, 정의는 뭘까?
+    - 정의  
+      > The `<h1>` to `<h6>` tags are used to define HTML headings.  
+      > `<h1>` defines the most important heading. `<h6>` defines the least important heading.
+
+      > `<h1>`부터 `<h6>`까지의 태그는 HTML 문서에서 제목을 정의하는 데 사용합니다.  
+      > `<h1>`은 가장 중요한 제목을 정의합니다. `<h6>`은 가장 덜 중요한 제목을 정의합니다.
+    - 결론 
+        - `h` 태그는 HTML 문서에서 제목을 지정하는 태그
+        - `h1` 태그는 제일 큰 제목을 지정하는 태그
+        - 이런 식으로 구글링을 통해 스스로 학습이 가능함
+- 응용
+    - 우리가 만들었던 HTML 문서에 제목을 추가
+    - 웹 문서 맨 앞에 `<h1>HTML</h1>` 코드 추가  
+
+<p class="codepen" data-height="241" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="xxEyEZX" style="height: 241px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="with h1.html">
+  <span>See the Pen <a href="https://codepen.io/logistex/pen/xxEyEZX">
+  with h1.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>    
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+
+- "태그를 배우기 전과 후가 달라졌다!"는 말은 과장이 아니죠?
+    - 놀라운 점은 웹을 통해서 "원하는 정보에 쉽게 접근할 수 있다!"는 점
+    - `h1` 태그를 도서관에 가서 찾아봐야 했던 시절도 있었음  
+      ![도서관 다녀 오기](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7616.jpeg)
+    - 이런 시절엔, 도서관에서 알아낸 결과를 머리(가방) 속에 넣었어야 했다는 ...  
+      ![머리 속에 저장](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7615.jpeg)
+    - 요즘엔, 검색 방법을 머리 속에 넣어두면 해결된다는 ...
+      ![쉽게 검색 가능한 세상](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7620.jpeg)
+    - 과거엔 머리 속에 든 지식이 중요했지만,  
+      현재는 어떻게 찾으면 되는지를 하는 것이 중요하고,   
+      사실 더욱 중요한 것은 *무엇을 모르는지를 아는 것*
+- 혁명적 출발을 축하!  
+  ![시작이 가속되고 있음](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7622.jpeg)
+    
+## 통계에 근거한 학습
+- HTML에는 150 종이 넘는 태그가 존재함
+- 파레토 법칙 또는 80-20 법칙  
+    - *"상위 20%가 전체의 80%를 점유한다."*
+    - (2030년에는) 상위 1%의 부자가 전체 부의 64%를 독식할 것으로 전망  
+      출처: [세계 상위 1% 부자, 2030년에는 세계 부 64% 독식](https://www.yna.co.kr/view/AKR20180408040000009)
+    - 자주 사용되는 태그 30개가 HTML 태그 사용량의 80%를 차지
+- 태그 사용 통계
+    - [advancedwebranking.com](https://advancedwebranking.com/html/) 
+    - 32 종 태그로 작성된 웹 문서가 가장 많음   
+      ![webranking_1](https://user-images.githubusercontent.com/10287629/104163272-7f448c80-5439-11eb-907e-4fee16d23b05.png)
+    - 웹 문서에서 특정 태그의 사용 빈도
+        - 1등인 `html`과 `head` 태그는 모든(100%) 웹 문서에 등장
+        - 4등인 `title` 태그는 97.9%의 웹 문서에 등장 (`title` 태그가 누락된 웹 문서도 2.1%나 됨)
+        - 13등인 `li`와 `p` 태그는 80.8%의 웹 문서에 등장
+        - ...  
+        - 19등인 `h1` 태그는 61.9%의 웹 문서에 등장
+        - 27등인 `strong` 태그는 45.1%의 웹 문서에 등장
+        - 150 종이 넘는 태그 중에서 30등 이내라면 자주 쓰이는 태그인 셈
+        ![webranking_2](https://user-images.githubusercontent.com/10287629/104163268-7e135f80-5439-11eb-810c-075fc226fa81.png)
+- 쉽고 중요한 태그 30여개만 익혀도 웹 문서 작성이 충분함
+    - 기본 태그를 활용하다가,  
+      "이런 태그가 있으면 편리하지 않을까?"라는 생각을 ...
+    - 내가 고민스러운 문제라면, 이미 선배들이 해결했으리라는 믿음
+    - 고민스러운 문제인데, 선배들의 해결 사례가 없다면 ... *"대박!"*
+
+## 줄바꿈
+- 배울 내용
+    - 인기있는 태그 두 종
+    - CSS
+- `br` 태그 예제 
+    - 좌측 코드에는 단락 구분을 위한 줄바꿈을 적용하였으나, 
+    - 우측 실행 결과에는 줄바꿈이 동작하지 않음
+    <p class="codepen" data-height="526" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="oNzPRRx" style="height: 526px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="no new line.html">
+      <span>See the Pen <a href="https://codepen.io/logistex/pen/oNzPRRx">
+      no new line.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>    
+    
+    - 줄바꿈 태그가 별도로 존재함  
+    - 구글에서 `html new line tag`로 검색  
+    - HTML `br` 태그  
+
+    <p class="codepen" data-height="565" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="yLaxdBZ" style="height: 565px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="with br tag.html">
+      <span>See the Pen <a href="https://codepen.io/logistex/pen/yLaxdBZ">
+      with br tag.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+    
+    - `<br>` 태그는 단독 태그라서 `<br />`로 쓰기도 함
+    - `<br>` 태그는 내용을 감싸는 태그가 아니라, 해당 위치에서 줄바꿈하라는 의미
+    - `<br>` 태그는 여는 태그와 닫는 태그가 쌍으로 구성되지 않고, 단독으로 쓰임
+    - 단독 태그라는 의미를 분명하게 표시하기 위하여, `<br />`로 쓰기도 함
+    
+- `p` 태그 예제    
+    - 단락(paragraph) 표현을 위한 전용 태그
+    - 구글에서 `html paragraph tag`로 검색
+    - `<p> ... </p>` 태그  
+    <p class="codepen" data-height="582" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="qBaMzON" style="height: 582px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="p tag">
+      <span>See the Pen <a href="https://codepen.io/logistex/pen/qBaMzON">
+      p tag</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>    
+- 단락인 듯, 단락 아닌, 단락 같은 `br` 태그
+    - `br` 태그 예제의 결과와 `p` 태그 예제의 결과는   
+      사람에게는 동일한 모습처럼 보임
+    - 검색 엔진에게는 전혀 다른 실체로 인식됨
+        - `br` 태그는 단락과는 전혀 무관함
+        - `p` 태그를 써야 단락이라는 실체로 인정됨
+    - 의미에 부합하는 태그를 써야 바람직함
+    
+- `P` 태그의 불편함, `br` 태그의 편리함
+    - `br` 태그를 쓰면 단락과 단락 사이의 여백 크기를 `br` 태그를 반복하여 조절 가능함
+    - `P` 태그에서 단락과 단락 사이의 여백 크기는 정해져 있음
+    - `p` 태그를 쓰되 단락과 단락 사이의 여백을 더 크게 하려면,  
+      CSS 언어를 동원하면 됨
+    
+- CSS 언어를 활용하여 단락 간 여백을 조정하는 예제 
+    - p 태그에 `style="margin-top:45px;"`라는 CSS 코드를 추가  
+    - p 태그에 여백(margin)을 상부(top)에 45 픽셀(px)만큼 주는 모양새(style)라는 의미
+        ```html
+        <p style="margin-top:45px;">
+        ```  
+    <p class="codepen" data-height="598" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="YzGOoZx" style="height: 598px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="styling with CSS">
+      <span>See the Pen <a href="https://codepen.io/logistex/pen/YzGOoZx">
+      styling with CSS</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+    
+- 중요한 것은  
+    - `br` 태그보다 `p` 태그가 좋다는 점을 이해하는 것 
+    - 그 이유를 이해하는 것
+    - 의미에 맞는 태그를 사용하라!
+    - `p` 태그를 써서 단락의 경계를 명확하게 지정하되
+    - CSS 스타일을 지정하여 모양을 멋지게 할 수 있다는 점
+    
+- 웹 문서 작성 도구 3 종
+    - HTML: 문서의 내용 구조(? ... !)
+    - CSS: 문서의 외관(스타일) 디자인
+    - JavaScript: 문서의 동적 동작(기능, 콘텐츠가 아닌 행위) 
+    
+- 요약
+    - 84%의 빈도로 등장하는 `p` 태그
+    - 70%의 빈도로 등장하는 `br` 태그
+    - 웹 문서의 디자인을 책임지는 CSS
+
+---
+
+![0005720_coming-soon-page_550](https://user-images.githubusercontent.com/10287629/104704273-c6918c80-575b-11eb-9fca-8bff77df20c5.jpeg)
+
 
 [![going home](https://user-images.githubusercontent.com/10287629/104793991-511fcd80-57e8-11eb-86c8-27356c8dd83d.png)](https://logistex.github.io/smart_IT/)
