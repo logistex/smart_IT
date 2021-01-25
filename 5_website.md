@@ -576,7 +576,7 @@
       no list</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
       on <a href="https://codepen.io">CodePen</a>.</span>
     </p>
-    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script><br>  
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script><br><br>  
     
 - 올바른 목록은 전용 태그를 써서 작성해야 함  
 - `li` 태그로 작성한 수업 목록   
@@ -585,7 +585,7 @@
       list.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
       on <a href="https://codepen.io">CodePen</a>.</span>
     </p>
-    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script><br>  
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script><br><br>  
 
 - `li` 태그로 작성한 과일 목록 
         - 수업 목록과 과일 목록의 구분이 어려움
@@ -597,7 +597,7 @@
       fruits list.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
       on <a href="https://codepen.io">CodePen</a>.</span>
     </p>
-    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script><br>    
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script><br><br>    
 
 - `ul` 태그를 사용하여 부모-자식 관계를 설정한 목록
     - 부모 `ul` 태그 내부에 자식 `li` 태그 항목을 두는 방식
@@ -608,7 +608,7 @@
       ul li.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
       on <a href="https://codepen.io">CodePen</a>.</span>
     </p>
-    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script><br>    
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script><br><br>    
 
 - `li` 태그는 `ul` 부모 태그에 고정적으로 포함되는 방식으로 사용함
     - 상황에 따라서 부모-자식 관계를 자유롭게 맺는 태그가 아니라
@@ -624,7 +624,7 @@
       ol.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
       on <a href="https://codepen.io">CodePen</a>.</span>
     </p>
-    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script><br>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script><br><br>
 
 - 요약
     - 목록과 관련한 태그 세 개를 공부했음
@@ -638,7 +638,7 @@
       ol final.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
       on <a href="https://codepen.io">CodePen</a>.</span>
     </p>
-    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script><br><br>
 
 ## 문서 구조와 수퍼 스타들
 - 우리는 이미 HTML 문법 공부를 완료했음
