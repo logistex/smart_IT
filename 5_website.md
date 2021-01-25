@@ -675,7 +675,7 @@
       title.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
       on <a href="https://codepen.io">CodePen</a>.</span>
     </p>
-    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>    
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script><br><br>    
 
 - 웹 문서의 인코딩 방식을 브라우저에게 알리는 태그
     - 인코딩: 문서에 포함된 문자를 암호화하는 방식에는 여러 종류가 있지만,  
@@ -697,7 +697,7 @@
           charset.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
           on <a href="https://codepen.io">CodePen</a>.</span>
         </p>
-        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>    
+        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script><br><br>       
     
 - `title`과 `meta` 태그의 공통점  
     ```html
@@ -717,7 +717,7 @@
       head body.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
       on <a href="https://codepen.io">CodePen</a>.</span>
     </p>
-    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>    
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script><br><br>       
 
 - `!doctype` 및 `html` 태그    
     - HTML 문서임을 표시하는 `!doctype html`  
@@ -746,7 +746,7 @@
       doctype html.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
       on <a href="https://codepen.io">CodePen</a>.</span>
     </p>
-    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>    
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script><br><br>       
     
 - 전 세계의 모든 웹 문서가 공통적으로 준수하는 표준 구조를 공부했음
     ```html
