@@ -576,18 +576,18 @@
       no list</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
       on <a href="https://codepen.io">CodePen</a>.</span>
     </p>
-    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script><br>  
+    
 - 올바른 목록은 전용 태그를 써서 작성해야 함  
-    - `li` 태그로 작성한 수업 목록   
+- `li` 태그로 작성한 수업 목록   
     <p class="codepen" data-height="257" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="poExJMQ" style="height: 257px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="list.html">
       <span>See the Pen <a href="https://codepen.io/logistex/pen/poExJMQ">
       list.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
       on <a href="https://codepen.io">CodePen</a>.</span>
     </p>
-    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>  
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script><br>  
 
-    - `li` 태그로 작성한 과일 목록 
+- `li` 태그로 작성한 과일 목록 
         - 수업 목록과 과일 목록의 구분이 어려움
         - 목록 간의 구분이 필요함
         - 이 항목은 수업 목록이고, 이 항목은 과일 목록이라는 식으로  
@@ -597,18 +597,18 @@
       fruits list.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
       on <a href="https://codepen.io">CodePen</a>.</span>
     </p>
-    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>    
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script><br>    
 
-    - `ul` 태그를 사용하여 부모-자식 관계를 설정한 목록
-        - 부모 `ul` 태그 내부에 자식 `li` 태그 항목을 두는 방식
-        - 수업 `ul` 태그와 과일 `ul` 태그 사이에 빈 줄이 없어도 웹 화면에서 빈 줄이 표시됨
-        - 수업 `ul` 태그와 과일 `ul` 태그 사이에 빈 줄을 두는 방식이 코드의 가독성을 높여줌  
+- `ul` 태그를 사용하여 부모-자식 관계를 설정한 목록
+    - 부모 `ul` 태그 내부에 자식 `li` 태그 항목을 두는 방식
+    - 수업 `ul` 태그와 과일 `ul` 태그 사이에 빈 줄이 없어도 웹 화면에서 빈 줄이 표시됨
+    - 수업 `ul` 태그와 과일 `ul` 태그 사이에 빈 줄을 두는 방식이 코드의 가독성을 높여줌  
     <p class="codepen" data-height="327" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="GRjYYKK" style="height: 327px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="ul li.html">
       <span>See the Pen <a href="https://codepen.io/logistex/pen/GRjYYKK">
       ul li.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
       on <a href="https://codepen.io">CodePen</a>.</span>
     </p>
-    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>    
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script><br>    
 
 - `li` 태그는 `ul` 부모 태그에 고정적으로 포함되는 방식으로 사용함
     - 상황에 따라서 부모-자식 관계를 자유롭게 맺는 태그가 아니라
@@ -624,7 +624,7 @@
       ol.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
       on <a href="https://codepen.io">CodePen</a>.</span>
     </p>
-    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script><br>
 
 - 요약
     - 목록과 관련한 태그 세 개를 공부했음
