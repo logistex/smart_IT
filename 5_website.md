@@ -412,8 +412,7 @@
     - 70%의 빈도로 등장하는 `br` 태그
     - 웹 문서의 디자인을 책임지는 CSS
 
-
-![학이불사 이미지](./haki.jpg)
+![학이불사 이미지](https://user-images.githubusercontent.com/10287629/105651596-a354a300-5efa-11eb-9daf-799d9276bbd7.png)
 
 
 ## HTML이 중요한 이유
