@@ -411,8 +411,9 @@
     - 84%의 빈도로 등장하는 `p` 태그
     - 70%의 빈도로 등장하는 `br` 태그
     - 웹 문서의 디자인을 책임지는 CSS
+## 학이불사...
 
-![학이불사 이미지](https://user-images.githubusercontent.com/10287629/105651596-a354a300-5efa-11eb-9daf-799d9276bbd7.png)
+![학이불사 이미지](haki.jpg)
 
 
 ## HTML이 중요한 이유
@@ -537,6 +538,245 @@
     
 - 높은 곳까지 올라온 여러분에게 박수를!
     ![](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7662.png)
+    
+## 목록 태그의 부모-자식 관계
+- 태그 간의 부모(parent)-자식(child) 관계
+  ![](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7679.jpeg)  
+- 가상적 예제    
+  실제로 존재하는 태그는 아니지만,  부모 코드 영역에 포함된 자식 코드  
+    ```html
+    <parent>
+        <child></child>
+    </parent>
+    ```        
+- 실제적 예제  
+    ```html
+    <p>
+        <a href="https://logistex.github.io/smart_IT/">신입생을 위한 신교수 특강</a>
+    </p>
+    ```        
+    - `p` 태그 내부에 포함된 `a` 태그
+    - 여기서 `a` 태그는 하이퍼 링크 역할
+- 상황에 따라 가변적인 태그 간의 관계        
+    - `a` 태그가 항상 `p` 태그의 자식이어야 하는 것은 아님
+    - `p` 태그가 항상 `a` 태그의 부모이어야 하는 것은 아님
+    - 태그 간의 부모-자식 관계는 상황에 따라 달라짐
+- 고정적 부모-자식 관계인 태그도 존재함
+
+- 기획서  
+    - 기획서에서 붉은색 영역
+    - 웹 사이트의 메뉴 목록
+    ![](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7677.png)
+    
+- 목록인 듯, 목록 아닌, 목록 같은 너...  
+    - 목록처럼 보이지만, 실제로는 목록이 아님
+    - HTML에서 목록(list)을 위해 준비해 둔 태그를 써야 함  
+    <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="MWjPYMO" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="no list">
+      <span>See the Pen <a href="https://codepen.io/logistex/pen/MWjPYMO">
+      no list</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+- 올바른 목록은 전용 태그를 써서 작성해야 함  
+    - `li` 태그로 작성한 수업 목록   
+    <p class="codepen" data-height="257" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="poExJMQ" style="height: 257px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="list.html">
+      <span>See the Pen <a href="https://codepen.io/logistex/pen/poExJMQ">
+      list.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>  
+
+    - `li` 태그로 작성한 과일 목록 
+        - 수업 목록과 과일 목록의 구분이 어려움
+        - 목록 간의 구분이 필요함
+        - 이 항목은 수업 목록이고, 이 항목은 과일 목록이라는 식으로  
+        - 부모 태그 `ul`을 써서 자식 항목을 소속시키는 방식  
+    <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="eYdPLae" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="fruits list.html">
+      <span>See the Pen <a href="https://codepen.io/logistex/pen/eYdPLae">
+      fruits list.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>    
+
+    - `ul` 태그를 사용하여 부모-자식 관계를 설정한 목록
+        - 부모 `ul` 태그 내부에 자식 `li` 태그 항목을 두는 방식
+        - 수업 `ul` 태그와 과일 `ul` 태그 사이에 빈 줄이 없어도 웹 화면에서 빈 줄이 표시됨
+        - 수업 `ul` 태그와 과일 `ul` 태그 사이에 빈 줄을 두는 방식이 코드의 가독성을 높여줌  
+    <p class="codepen" data-height="327" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="GRjYYKK" style="height: 327px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="ul li.html">
+      <span>See the Pen <a href="https://codepen.io/logistex/pen/GRjYYKK">
+      ul li.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>    
+
+- `li` 태그는 `ul` 부모 태그에 고정적으로 포함되는 방식으로 사용함
+    - 상황에 따라서 부모-자식 관계를 자유롭게 맺는 태그가 아니라
+    - 고정적으로 부모-자식 관계를 필수적으로 맺는 태그에 해당함
+
+- 그런데, 수업의 목록 항목 개수가 매우 많다면?
+    - 모든 항목의 번호를 사람이 일일이 지정해야 할까?
+    - 자동적으로 번호가 지정된다면 편리하지 않을까?  
+    - 아래 코드에서 과일 목록 코드에는 번호를 따로 지정하지 않았지만,  
+      자동적으로 번호가 부여되어 표시되었음  
+    <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="wvzYYKW" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="ol.html">
+      <span>See the Pen <a href="https://codepen.io/logistex/pen/wvzYYKW">
+      ol.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+- 요약
+    - 목록과 관련한 태그 세 개를 공부했음
+    - 목록 항목을 정의하는 `li` 태그
+
+- 최종적인 코드
+    - 과일 목록은 파일에서 제거
+    - 수업 목록 `ol` 태그로 변경하여 남긴 코드  
+    <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="LYRggbv" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="ol final.html">
+      <span>See the Pen <a href="https://codepen.io/logistex/pen/LYRggbv">
+      ol final.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+## 문서 구조와 수퍼 스타들
+- 우리는 이미 HTML 문법 공부를 완료했음
+    - HTML 문장 만드는 방법, 즉 HTML 문법 공부를 완료했음
+    - HTML 문법에 더 복잡한 규칙은 없음  
+    ![HTML 문법 공부를 완료](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7668.png)
+
+- 웹 문서의 구조
+    - 문장이 모여서 페이지를 구성함
+    - 페이지가 모여서 책을 구성함
+    - 책에는 표지가 있어야 하고,  
+      표지에는 제목, 출판 일자와 저자 등이 표기되어야 함  
+    ![](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7669.png)  
+      
+- 웹 문서의 구조를 만드는 방법
+    - 정보를 정리정돈하기 위한 체계, 즉 구조가 필요함
+    - HTML 태그 중에서 가장 많이 사용되는 수퍼스타 태그들도 공부할 예정  
+    ![](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7664.png)
+
+- 우리가 만든 웹 페이지와 다른 웹 페이지를 비교  
+    - 다른 웹 페이지는 탭에 제목이 잘 정리되어 표시되었음
+    - 우리 웹 페이지는 탭에 파일 경로가 표시되었음  
+    - 구글에서 `html title` 검색
+    ![](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7665.png)
+
+- `title` 태그 활용
+    ```html
+    <title>WEB1 - html</title>
+    ``` 
+    - `title` 태그는 검색 엔진이 웹 페이지를 분석할 때, 중요하게 취급하는 태그
+    - 모든 웹 문서에 반드시 포함되어야 할 중요한 태그
+    <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="XWjxxYo" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="title.html">
+      <span>See the Pen <a href="https://codepen.io/logistex/pen/XWjxxYo">
+      title.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>    
+
+- 웹 문서의 인코딩 방식을 브라우저에게 알리는 태그
+    - 인코딩: 문서에 포함된 문자를 암호화하는 방식에는 여러 종류가 있지만,  
+      최근에는 `UTF-8` 방식이 표준임 
+    - 웹 문서 작성할 때 사용한 인코딩 방식과  
+      웹 브라우저가 해석할 때 사용하는 인코딩 방식이  
+      서로 다르면 웹 브라우저에서 글자가 깨져서 보임  
+      ![](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7666.png)
+    
+    - 웹 문서를 작성할 때 사용한 인코딩 방식이 'UTF-8'임을 확인  
+      ![](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7667.png)
+      
+    - 웹 브라우저에게 웹 문서의 인코딩 방식이 `UTF-8`임을 신고  
+        ```html
+        <meta charset="utf-8">
+        ```
+        <p class="codepen" data-height="241" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="jOMeedz" style="height: 241px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="charset.html">
+          <span>See the Pen <a href="https://codepen.io/logistex/pen/jOMeedz">
+          charset.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+          on <a href="https://codepen.io">CodePen</a>.</span>
+        </p>
+        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>    
+    
+- `title`과 `meta` 태그의 공통점  
+    ```html
+        <title>WEB1 - html</title>
+        <meta charset="utf-8">
+    ```
+    - 두 태그는 본문이 아님
+    - HTML을 만든 사람들은  
+      본문과 본문을 설명하는 정보를 각기 다른 태그로 분리해서  
+      정리정돈하는 것이 바람직하다고 생각했음
+      
+- 문서의 구조를 처리하는 태그
+    - 본문을 가두는 `body` 태그
+    - 본문을 설명하는 `head` 태그  
+    <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="ExgddqB" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="head body.html">
+      <span>See the Pen <a href="https://codepen.io/logistex/pen/ExgddqB">
+      head body.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>    
+
+- `!doctype` 및 `html` 태그    
+    - HTML 문서임을 표시하는 `!doctype html`  
+        - 문서 유형을 표시하는 태그
+        - 유일하게 '!'로 시작하는 태그
+        - 문서의 맨 앞에 위치시킴
+        - 닫는 태그 없이 단독으로 사용
+    - 전체 문서를 가두는 `html` 태그
+        - `html` 태그의 자식 태그는 `head`와 `body` 태그
+        - `html` 태그는 여는 태그와 닫는 태그로 구성됨
+
+- 결론적으로 웹 문서의 완전한 구조는 다음과 같음    
+    ```html
+    <!doctype html>
+    <html> 
+        <head>
+            ...
+        </head>
+        <body>
+            ...
+        </body>
+    </html>
+    ```   
+    <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="RwGevea" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="doctype html.html">
+      <span>See the Pen <a href="https://codepen.io/logistex/pen/RwGevea">
+      doctype html.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>    
+    
+- 전 세계의 모든 웹 문서가 공통적으로 준수하는 표준 구조를 공부했음
+    ```html
+    <!doctype html>
+    <html> 
+        <head>
+            <title>...</title>
+            <meta charset="utf-8">
+            ...
+        </head>
+        <body>
+            ...
+        </body>
+    </html>
+    ```   
+    ![웹 문서 구조](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7671.png)
+
+## Emmet
+- 맛 보기
+    - !+[tab]
+    - p+[tab]
+    - li*n+[tab]
+    - li>a*20+[tab]
+    - (li>a)*20+[tab]
+    - child: >
+    - sybling: + 
+- 설치  
+    - atom에서 `File > Settings > Install`에서  
+    - 'emmet' 입력하고 `Package` 검색한 후,  
+    - `Install`
 
 
 ---
