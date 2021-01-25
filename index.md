@@ -7,7 +7,7 @@
 ## [웹 사이트 제작](5_website.md)
 ---
 
-[출석부 확인](https://docs.google.com/spreadsheets/d/1U5WD1rWs9p-6g4G53B8fEfYeRnOrM-fA9_RyIqch7-Y/edit?usp=sharing)
+[출석부 확인](https://docs.google.com/spreadsheets/d/19jZ9a173JM_4YZ4iTr9VQ1k6hO2ke1cLCTwI_oG8WWY/edit#gid=0)
 
 ---
 [![going home](https://user-images.githubusercontent.com/10287629/104793991-511fcd80-57e8-11eb-86c8-27356c8dd83d.png)](https://logistex.github.io/smart_IT/)
