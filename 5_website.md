@@ -412,6 +412,134 @@
     - 70%의 빈도로 등장하는 `br` 태그
     - 웹 문서의 디자인을 책임지는 CSS
 
+
+![학이불사 이미지](./haki.jpg)
+
+
+## HTML이 중요한 이유
+- 기초가 중요한 이유
+    - 응용으로 가는 토대
+    - 기초만으로도 할 수 있는 다양한 작업
+- 웹 문서에서 제목을 만드는 두 방법  
+    - [opentutorials.org](https://opentutorials.org/module/5316/edit) 구경  
+        [![two title](https://user-images.githubusercontent.com/10287629/104263825-b1073300-54cd-11eb-85d3-3b1bf7b5752b.png)](https://opentutorials.org/module/5316/29936/edit)
+    - 일반인: (`스타일`이 `본문`인 상태에서) 글자 크기를 22로 키우고, 진하게 지정  
+        ![일반인](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7638.png)
+    - 전문가: `스타일`을 적당한 크기의 `제목`으로 지정  
+        ![전문가](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7640.png)
+    - 배우기 전까지는 
+        - `스타일`이 눈에 보이지 않았을 것
+        - 모르는 것을 무시하는 우리 뇌의 배신
+        - 공부를 하면 보이지 않던 것이 보이기 시작함
+        - 공부를 하면 들리지 않던 것이 들리기 시작함
+    - `소스` 단추를 눌러보기  
+        ![](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7642.png)
+    - 일반인의 코드  
+        ```html
+        <strong><span style="font-size:22px;">coding</span></strong>
+        ```
+    - 전문가의 코드  
+        ```html
+        <h3>coding</h3>
+        ```
+- 검색 엔진 입장에서 두 코드의 차이
+    - 일반인 코드의 'coding'은 검색 엔진에게 제목이 아님
+    - 전문가 코드의 'coding'은 검색 엔진에게 제목으로 인식됨
+    - 두 사람이 10년 동안 2,000 개 웹 문서를 만들었다고 가정하면,  
+      일반인의 웹 문서는 검색 엔진에서 처리되지 않고 무시됨
+
+- HTML의 중요성 
+    - 검색 엔진 친화적인 HTML을 써야 비즈니스가 잘 됨
+    - 접근성을 보장하기 위해서도 용도에 맞는 HTML 태그를 써야 함
+    - 결론은 용도에 맞는 HTML 태그를 써야 의미론적 유용성이 보장됨
+
+## 태그의 속성과 img
+
+- 계획 
+    - 지금까지 HTML 문법 중에서 태그를 공부하였음  
+      ![](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7660.png)
+    - 이제부터 HTML 문법 중에서 **속성(attribute)**을 공부할 예정  
+    - 이미지를 처리하는 `img` 태그도 공부할 예정
+- 이미지(image)
+    - 글씨만 포함된 웹 문서는 따분함
+    - 이미지가 포함된 웹 문서가 필요함
+    - 초창기 웹에는 문서에 그림을 넣는 방법이 없었음
+    - 처음으로 웹 페이지에 그림이 등장했을 때, ...
+- `img` 태그
+    - `img` 태그를 썼지만 그림은 안 보이네...  
+        <p class="codepen" data-height="446" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="ZEpqEpg" style="height: 446px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="not shown image.html">
+          <span>See the Pen <a href="https://codepen.io/logistex/pen/ZEpqEpg">
+          not shown image.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+          on <a href="https://codepen.io">CodePen</a>.</span>
+        </p>
+        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+    - 어떤 그림을 표시해야 하는지 지정하지 않았음
+        - `<img>?</img>`처럼 쓸 수 있을까요?
+        - `?` 자리에 그림을 넣을 수 있을까요?
+        - `img` 태그에 표시할 그림을 지정할 문법적 장치가 필요함
+    - `img` 태그 내부에 표시할 그림을 지정하는 *속성*이라는 장치를 도입  
+        - 코드  
+            ```html
+            <img src="https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7648.png">
+            ```
+        - 위 코드에서   
+            `"https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7648.png"` 부분이  
+            속성값  
+        - 속성값  
+            [https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7648.png](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7648.png)은  
+            이미지(가 저장된 웹) 주소
+        - 이 주소를 웹 브라우저 주소 창에 입력하면?
+        - `속성="속성값"` 문법 형식  
+            <p class="codepen" data-height="489" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="poExoem" style="height: 489px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="shown image ">
+              <span>See the Pen <a href="https://codepen.io/logistex/pen/poExoem">
+              shown image </a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+              on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+    - `src` 속성으로 웹에 존재하는 이미지를 내 문서에 표시했음
+        - 웹 문서에 이미지를 표시하려면,  
+          이미지 파일 자체가 웹 주소를 통해 접근 가능해야 함
+        - 내 컴퓨터에 존재하는 이미지 파일을 내 HTML 문서에 표시할 수 있지만,  
+          막상 해당 HTML 문서가 웹에 배포되어도,  
+          이미지 파일이 웹을 통해 접근 가능한 경우가 아니라면,  
+          해당 HTML 문서에 포함된 이미지는 보이지 않을 것임
+- 로컬/원격 이미지
+    - 웹에 공개되어 있는 원격 이미지를 내 웹 문서에 표시  
+        ```html
+        <img src="https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7648.png">
+        ```        
+    - 내 컴에 저장되어 있는 로컬 이미지를 내 웹 문서에 표시  
+        ```html
+        <img src=".\photo-1610146140168-eb3b4219a80f.jpg">
+        ```        
+
+- 웹에 공개된 이미지를 활용하는 방법
+    - 구글에서 `public domain image`로 검색
+    - [unsplash.com](https://unsplash.com/)도 저작권 없는 사진을 제공하는 웹 사이트 중의 하나
+    - 원하는 사진을 선택하고, `이미지를 다른 이름으로 저장` 메뉴를 써서 내 컴으로 다운로드
+    - 작성 중인 웹 문서와 같은 폴더로 잘라내서 붙여넣은 후
+    - `img` 코드를 활용  
+    <img src="./photo-1610146140168-eb3b4219a80f.jpg">
+    - 이 그림을 codepen.io 사이트에 입력했던 HTML 문서에서 보여주고 싶다면?
+        - 웹에서 접근 가능한 이미지 파일의 주소를 사용해야 함
+        - 웹에서 접근 가능한 곳에 이미지 파일을 올려야 함
+        - 예를 들면 github 사이트를 활용하면 됨 
+
+- 이미지 크기 조절
+    - 이미지 주소를 지정하는 `src` 속성이 존재한다면, ...
+    - 이미지 크기를 지정하는 속성도 있을테지 ...
+    - 구글에서 `html img size attribute` 검색
+        ```html
+        <img width="30%" src="./photo-1610146140168-eb3b4219a80f.jpg">
+        ```        
+      <img width="30%" src="./photo-1610146140168-eb3b4219a80f.jpg">
+    
+- 높은 곳까지 올라온 여러분에게 박수를!
+    ![](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7662.png)
+
+
 ---
 
 ![0005720_coming-soon-page_550](https://user-images.githubusercontent.com/10287629/104704273-c6918c80-575b-11eb-9fca-8bff77df20c5.jpeg)
