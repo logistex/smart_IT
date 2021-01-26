@@ -821,7 +821,7 @@
     - 관광만 하지 말고, 여행을 하세요!
     - 클릭 가는데로 가다보면 길을 잃고 헤멜 수도 있어요.
 
-## 웹 사이트 완성
+## 웹 사이트 1차 완성 (내용 및 구조)
 - 웹 문서와 웹 사이트
     - 지금까지 웹 문서(페이지) 저작 방법을 배웠음  
       ![웹 문서 저작](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/8130.png)
@@ -866,7 +866,7 @@
     - 완성된 `2_css.html`  
         <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="LYRgaoL" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="2_css.html">
           <span>See the Pen <a href="https://codepen.io/logistex/pen/LYRgaoL">
-          2_css.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+고          2_css.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
           on <a href="https://codepen.io">CodePen</a>.</span>
         </p>
         <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script><br><br>
@@ -878,7 +878,88 @@
           on <a href="https://codepen.io">CodePen</a>.</span>
         </p>
         <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script><br><br>
+
+## 웹 사이트 2차 완성 (스타일)
+
+- 구글에서 'CSS 화면 레이아웃'으로 검색  
+    [CSS / 고정형 레이아웃 만들기](https://www.codingfactory.net/10530) 참고
+
+- 완성된 `index.html` 
+    
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="NWRQyVB" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="index_css.html">
+  <span>See the Pen <a href="https://codepen.io/logistex/pen/NWRQyVB">
+  index_css.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+        <br><br>
+
+- 완성된 `1_html.html` 
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="NWRQyVB" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="index_css.html">
+  <span>See the Pen <a href="https://codepen.io/logistex/pen/NWRQyVB">
+  index_css.html</a> by logistex (<a   href="https://codepen.io/logistex">@logistex</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<br><br>
+
+- 완성된 `2_css.html`  
+        <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="dypxmbN" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="2_css_csss.html">
+          <span>See the Pen <a href="https://codepen.io/logistex/pen/dypxmbN">
+          2_css_csss.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+          on <a href="https://codepen.io">CodePen</a>.</span>
+        </p>
+        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>    
+        <br><br>
         
+- 완성된 `3_javascript.html` 
+        <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="XWjvEWW" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="3_javascript_css.html">
+          <span>See the Pen <a href="https://codepen.io/logistex/pen/XWjvEWW">
+          3_javascript_css.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+          on <a href="https://codepen.io">CodePen</a>.</span>
+        </p>
+        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>    
+        <br><br>
+
+## 웹 사이트 3차 완성 (스타일 파일 분리)
+
+- 분리된 `css.css`
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="css,result" data-user="logistex" data-slug-hash="WNGVzbY" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="css_final.css">
+  <span>See the Pen <a href="https://codepen.io/logistex/pen/WNGVzbY">
+  css_final.css</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>   
+<br><br>
+
+- 완성된 `1_html.html` 
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="oNzKqXB" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="index_final.html">
+  <span>See the Pen <a href="https://codepen.io/logistex/pen/oNzKqXB">
+  index_final.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<br><br>
+
+- 완성된 `2_css.html`  
+        <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="ExgqEKP" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="2_css_final.html">
+          <span>See the Pen <a href="https://codepen.io/logistex/pen/ExgqEKP">
+          2_css_final.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+          on <a href="https://codepen.io">CodePen</a>.</span>
+        </p>
+        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+        <br><br>
+        
+- 완성된 `3_javascript.html` 
+        <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="RwGXMaj" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="3_javascript_final.html">
+          <span>See the Pen <a href="https://codepen.io/logistex/pen/RwGXMaj">
+          3_javascript_final.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+          on <a href="https://codepen.io">CodePen</a>.</span>
+        </p>
+        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+        <br><br>
+
 - 완성된 코드는 [https://github.com/logistex/WEB](https://github.com/logistex/WEB)에서 일괄 다운로드 가능함  
     - 위 링크로 접속하여, 우측 상단에 보이는 초록색 `code`를 클릭하면, 보이는 메뉴에서  
     - `Download Zip` 항목을 클릭하면 내 컴퓨터로 다운로드 가능함
@@ -898,13 +979,6 @@
     - 완주하지 못하더라도, 원전에서 충분히 자습할 수 있다는 점을 고려했음
     - 원전에서는 동영상 강의도 제공되므로 적극 활용하기 바람  
     [![](https://s3.ap-northeast-2.amazonaws.com/opentutorials-user-file/course/94.png)](https://opentutorials.org/)
-
----
-- 한스 로즐링이 보여준 데이터 시각화
-[![youtu be-To8QEKmmmog](https://user-images.githubusercontent.com/10287629/105632218-64d8cd00-5e95-11eb-972b-6a87be7bc781.jpg)](https://youtu.be/To8QEKmmmog?t=140)
-
-
-- 파이썬으로 작성한 [취업 현황 분석 차트](https://colab.research.google.com/drive/1FAzHppGPeUKeCPyiaOXrWoQtnNYZ3HBx?usp=sharing)
 
 ---
 
