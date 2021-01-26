@@ -11,6 +11,11 @@
 [출석부 확인](https://docs.google.com/spreadsheets/d/19jZ9a173JM_4YZ4iTr9VQ1k6hO2ke1cLCTwI_oG8WWY/edit#gid=0)
 
 ---
+
+[수업에서 완성한 웹 사이트](https://logistex.github.io/test0100/)
+
+---
+
 [![going home](https://user-images.githubusercontent.com/10287629/104793991-511fcd80-57e8-11eb-86c8-27356c8dd83d.png)](https://logistex.github.io/smart_IT/)
 
 
