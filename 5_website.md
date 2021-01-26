@@ -904,22 +904,22 @@
 <br><br>
 
 - 완성된 `2_css.html`  
-        <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="dypxmbN" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="2_css_csss.html">
-          <span>See the Pen <a href="https://codepen.io/logistex/pen/dypxmbN">
-          2_css_csss.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
-          on <a href="https://codepen.io">CodePen</a>.</span>
-        </p>
-        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>    
-        <br><br>
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="dypxmbN" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="2_css_csss.html">
+  <span>See the Pen <a href="https://codepen.io/logistex/pen/dypxmbN">
+  2_css_csss.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>    
+<br><br>
         
 - 완성된 `3_javascript.html` 
-        <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="XWjvEWW" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="3_javascript_css.html">
-          <span>See the Pen <a href="https://codepen.io/logistex/pen/XWjvEWW">
-          3_javascript_css.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
-          on <a href="https://codepen.io">CodePen</a>.</span>
-        </p>
-        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>    
-        <br><br>
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="XWjvEWW" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="3_javascript_css.html">
+  <span>See the Pen <a href="https://codepen.io/logistex/pen/XWjvEWW">
+  3_javascript_css.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>    
+<br><br>
 
 ## 웹 사이트 3차 완성 (스타일 파일 분리)
 
@@ -943,22 +943,22 @@
 <br><br>
 
 - 완성된 `2_css.html`  
-        <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="ExgqEKP" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="2_css_final.html">
-          <span>See the Pen <a href="https://codepen.io/logistex/pen/ExgqEKP">
-          2_css_final.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
-          on <a href="https://codepen.io">CodePen</a>.</span>
-        </p>
-        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-        <br><br>
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="ExgqEKP" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="2_css_final.html">
+  <span>See the Pen <a href="https://codepen.io/logistex/pen/ExgqEKP">
+  2_css_final.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<br><br>
         
 - 완성된 `3_javascript.html` 
-        <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="RwGXMaj" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="3_javascript_final.html">
-          <span>See the Pen <a href="https://codepen.io/logistex/pen/RwGXMaj">
-          3_javascript_final.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
-          on <a href="https://codepen.io">CodePen</a>.</span>
-        </p>
-        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-        <br><br>
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="RwGXMaj" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="3_javascript_final.html">
+  <span>See the Pen <a href="https://codepen.io/logistex/pen/RwGXMaj">
+  3_javascript_final.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<br><br>
 
 - 완성된 코드는 [https://github.com/logistex/WEB](https://github.com/logistex/WEB)에서 일괄 다운로드 가능함  
     - 위 링크로 접속하여, 우측 상단에 보이는 초록색 `code`를 클릭하면, 보이는 메뉴에서  
