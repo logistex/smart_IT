@@ -778,10 +778,134 @@
     - 'emmet' 입력하고 `Package` 검색한 후,  
     - `Install`
 
+## HTML 태그의 제왕
+![HTML 태그의 제왕](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7683.jpeg)
+- 제왕이라 할만한 태그
+    - 모든 웹 항해의 연결 수단
+    - 검색 엔진의 존재 근거
+    - 도시의 길, 인체의 혈관  
+      ![도시의 길](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7686.jpeg)
+    - 전 세계 웹 문서가 고립을 면하는 이유
+    - 우리가 하루에 백번도 넘게 사용하는 태그 
+    - 웹을 웹답게 만드는 가장 중요한 태그
+    - 클릭하면 순식간에 연결  
+      ![클릭하면 연결](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7688.jpeg)
+    - "HTML"의 "HT" = "HyperText"  
+      ![HyperText](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7689.jpeg)
+    - 이 태그의 이름은 "anchor(닻)"에서 따온 `a`
+    - 정보의 바다에 정박한다는 시적인 표현  
+      ![anchor](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7690.jpeg)
+    - 이 태그를 우리는 **링크(link, 연결)** 태그라고 부름
+    - HTML 공식 문서에 대한 링크는 [https://html.spec.whatwg.org/](https://html.spec.whatwg.org/)이고,  
+      `a` 태그에 대한 링크는 [https://html.spec.whatwg.org/#the-a-element](https://html.spec.whatwg.org/#the-a-element)
+    - 구글에서 `html a tag` 검색
+    
+- 링크 태그 적용
+    - 아래 코드에서 링크 태그가 적용된 부분에 주목
+    - `<a>...</a>` 태그를 쓰면, `...`으로 표시된 문구에 링크가 걸림
+    - `href` 속성은  **H**yperText **Ref**erence의 약자
+    - `target="_blank`는 링크를 클릭했을 때,  
+      새 창에서 페이지가 열리게 하는 속성
+    - `title` 속성은 이 링크가 어떤 내용을 담고 있는지를  
+      툴팁으로 보여주는 기능
+        <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="KKgGEVG" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="link tag.html">
+          <span>See the Pen <a href="https://codepen.io/logistex/pen/KKgGEVG">
+          link tag.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+          on <a href="https://codepen.io">CodePen</a>.</span>
+        </p>
+        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>    
+    
+- 링크를 통한 정보 탐험
+    - 지식의 대중화, 학문의 민주화를 열어준 새로운 세상
+    - 링크가 우리를 어디로 인도할까요?
+    - 관광만 하지 말고, 여행을 하세요!
+    - 클릭 가는데로 가다보면 길을 잃고 헤멜 수도 있어요.
+
+## 웹 사이트 완성
+- 웹 문서와 웹 사이트
+    - 지금까지 웹 문서(페이지) 저작 방법을 배웠음  
+      ![웹 문서 저작](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/8130.png)
+    - 링크로 문서와 문서를 연결하는 방법도 배웠음  
+      ![링크 연결](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7707.jpeg)
+    - 문서를 모아서 제본하면 책이 완성되듯,  
+      웹 문서를 링크로 모으면 웹 사이트가 완성됨  
+      ![웹 문서 연결](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7709.jpeg)
+
+- 우리의 웹 사이트는 모두 4 개의 웹 문서로 구성됨 
+    - `index.html`  
+        웹 3대 기술을 총괄하는 "WEB" 소개 문서
+    - `1_html.html`  
+        첫번째 웹 기술로서 "HTML" 소개 문서
+    - `2_css.html`  
+        두번째 웹 기술로서 "CSS" 소개 문서
+    - `3_javascript.html`  
+        세번째 웹 기술로서 "JavaScript" 소개 문서
+
+- 웹 사이트 작성 순서
+    - 웹 사이트 전체의 제목을 "WEB"으로 작성  
+      ![전체 제목 WEB](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7701.png)
+    - 링크 설계   
+      ![링크 설계](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7702.png)
+    - 완성된 `index.html`   
+        <p class="codepen" data-height="401" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="MWjPxGN" style="height: 401px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="index.html">
+          <span>See the Pen <a href="https://codepen.io/logistex/pen/MWjPxGN">
+          index.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+          on <a href="https://codepen.io">CodePen</a>.</span>
+        </p>
+        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script><br><br>
+        
+    - 완성된 `1_html.html`  
+        <p class="codepen" data-height="367" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="XWjxGym" style="height: 367px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="1_html.html">
+          <span>See the Pen <a href="https://codepen.io/logistex/pen/XWjxGym">
+          1_html.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+          on <a href="https://codepen.io">CodePen</a>.</span>
+        </p>
+        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script><br><br>
+        
+    - `1_html.html`을 복사하여 적절히 수정하여 나머지 문서를 완성
+    - 완성된 `2_css.html`  
+        <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="LYRgaoL" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="2_css.html">
+          <span>See the Pen <a href="https://codepen.io/logistex/pen/LYRgaoL">
+          2_css.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+          on <a href="https://codepen.io">CodePen</a>.</span>
+        </p>
+        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script><br><br>
+        
+    - 완성된 `3_javascript.html`  
+        <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="MWjPxNw" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="3_javascript.html">
+          <span>See the Pen <a href="https://codepen.io/logistex/pen/MWjPxNw">
+          3_javascript.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+          on <a href="https://codepen.io">CodePen</a>.</span>
+        </p>
+        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script><br><br>
+        
+- 완성된 코드는 [https://github.com/logistex/WEB](https://github.com/logistex/WEB)에서 일괄 다운로드 가능함  
+    - 위 링크로 접속하여, 우측 상단에 보이는 초록색 `code`를 클릭하면, 보이는 메뉴에서  
+    - `Download Zip` 항목을 클릭하면 내 컴퓨터로 다운로드 가능함
+- 완성된 웹 사이트는 [https://logistex.github.io/WEB/](https://logistex.github.io/WEB/)에서 확인할 수 있음    
+
+- 엄청나게 **축하!**  
+    - 코딩에 대한 두려움을 떨쳐내는 계기가 되었기를!
+    - 코딩을 통한 흥분과 열광을 경험하시길! 
+    - 코딩이 우리에게 펼쳐줄 새로운 세상을 만끽하기를!
+    ![축하](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7710.jpeg)
+
+- 본 교안의 원전
+    - egoing, [WEB1 - HTML & Internet](https://opentutorials.org/course/3084), [opentutorials.org](https://opentutorials.org/), 2020-07-28.
+    - 본 교안은 원전을 미세하게 수정하여 작성하였음
+    - 원전의 내용 구성 및 강의 진행 방식이 매우 훌륭하고 탁월함
+    - 신입생 특강은 완주하는 학생이 많지 않음
+    - 완주하지 못하더라도, 원전에서 충분히 자습할 수 있다는 점을 고려했음
+    - 원전에서는 동영상 강의도 제공되므로 적극 활용하기 바람  
+    [![](https://s3.ap-northeast-2.amazonaws.com/opentutorials-user-file/course/94.png)](https://opentutorials.org/)
 
 ---
+- 한스 로즐링이 보여준 데이터 시각화
+[![youtu be-To8QEKmmmog](https://user-images.githubusercontent.com/10287629/105632218-64d8cd00-5e95-11eb-972b-6a87be7bc781.jpg)](https://youtu.be/To8QEKmmmog?t=140)
 
-![0005720_coming-soon-page_550](https://user-images.githubusercontent.com/10287629/104704273-c6918c80-575b-11eb-9fca-8bff77df20c5.jpeg)
 
+- 파이썬으로 작성한 [취업 현황 분석 차트](https://colab.research.google.com/drive/1FAzHppGPeUKeCPyiaOXrWoQtnNYZ3HBx?usp=sharing)
+
+---
 
 [![going home](https://user-images.githubusercontent.com/10287629/104793991-511fcd80-57e8-11eb-86c8-27356c8dd83d.png)](https://logistex.github.io/smart_IT/)
