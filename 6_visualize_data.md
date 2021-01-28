@@ -31,9 +31,7 @@
 
 ![crime_2019 txt](https://user-images.githubusercontent.com/10287629/102707120-9b8e5700-42db-11eb-98fe-f0e59e50049c.png)
 ![murder_both](https://user-images.githubusercontent.com/10287629/103071238-91839580-4606-11eb-851e-213a53d04fac.png)
-상
 [범죄 현황 분석](http://localhost:8888/notebooks/elite/2020/lecture2/VD02/00vd_work/wk15_final_work/final_work_answer.ipynb)
-
 
 ## 인공지능
 - 얼굴 비식별 처리에 인공지능을 활용한 사례
