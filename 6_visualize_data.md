@@ -71,6 +71,9 @@
     
     ![](https://steemitimages.com/640x0/https://scontent-sea1-1.cdninstagram.com/t51.2885-15/s480x480/e35/c0.90.720.720/17882547_1287183594700533_3866773835571265536_n.jpg?ig_cache_key=MTQ5MTM4MTI5Mjg5MjMxOTg2MA%3D%3D.2.c)
 
+    - 멋진 대학 생활 되세요!
+    ![](https://media.istockphoto.com/vectors/the-adventure-begins-class-of-2020-vector-id1221605505?k=6&m=1221605505&s=612x612&w=0&h=z0XL36FEc4ddFVxnmU3pI4VYXkhzcMxvcOEovq1Eaxw=)
+
 ---
 
 [![going home](https://user-images.githubusercontent.com/10287629/104793991-511fcd80-57e8-11eb-86c8-27356c8dd83d.png)](https://logistex.github.io/smart_IT/)
