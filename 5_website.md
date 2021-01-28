@@ -952,9 +952,9 @@
 <br><br>
 
 - 완성된 `1_html.html` 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="oNzKqXB" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="index_final.html">
-  <span>See the Pen <a href="https://codepen.io/logistex/pen/oNzKqXB">
-  index_final.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="logistex" data-slug-hash="zYoOEBJ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="1_html_final.html">
+  <span>See the Pen <a href="https://codepen.io/logistex/pen/zYoOEBJ">
+  1_html_final.html</a> by logistex (<a href="https://codepen.io/logistex">@logistex</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
