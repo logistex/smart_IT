@@ -1,12 +1,14 @@
 ## 한스 로즐링 동영상
 
-- 한스 로즐링이 보여준 데이터 시각화
 [![youtu be-To8QEKmmmog](https://user-images.githubusercontent.com/10287629/105632218-64d8cd00-5e95-11eb-972b-6a87be7bc781.jpg)](https://youtu.be/To8QEKmmmog?t=140)
 
-# 데이터 시각화 소개
-![](https://media.istockphoto.com/vectors/business-and-market-icon-vector-id516317308?k=6&m=516317308&s=612x612&w=0&h=mmxiLhu9zYyjXjzjRwHaE6NK5OK5yTBUrsxE3zJ1ato=)
+## 데이터 시각화 소개
+
+![charts](https://user-images.githubusercontent.com/10287629/106139845-4cc4be80-61b1-11eb-8c45-f505111f1830.png)
+
 ![needs](https://user-images.githubusercontent.com/10287629/106096177-5f6ed180-6178-11eb-88c5-82eb8313c21a.png)
-![](https://communities.sas.com/t5/image/serverpage/image-id/20284iD46C690F13883A37?v=1.0)
+
+![datasaurus](https://communities.sas.com/t5/image/serverpage/image-id/20284iD46C690F13883A37?v=1.0)
 
 [데이터 시각화 기본 개념](http://localhost:8888/notebooks/elite/2020/lecture2/VD02/00vd_work/wk01_intro_basics_principles/wk0101_basics.ipynb)
 
@@ -29,50 +31,72 @@
 
 ![crime_2019 txt](https://user-images.githubusercontent.com/10287629/102707120-9b8e5700-42db-11eb-98fe-f0e59e50049c.png)
 ![murder_both](https://user-images.githubusercontent.com/10287629/103071238-91839580-4606-11eb-851e-213a53d04fac.png)
-
+상
 [범죄 현황 분석](http://localhost:8888/notebooks/elite/2020/lecture2/VD02/00vd_work/wk15_final_work/final_work_answer.ipynb)
 
+
+## 인공지능
+- 얼굴 비식별 처리에 인공지능을 활용한 사례
+- 비식별 처리 적용 전 동영상
+[![한양여대](https://www.hywoman.ac.kr/resources/domain/ko/VI/1610683277625.jpg)](https://youtu.be/6uFZMHhJKnQ)
+- 비식별 처리 적용 후 동영상
+[![한양여대](https://www.hywoman.ac.kr/resources/domain/ko/VI/1598838872707.jpg)](https://youtu.be/pgnHclIDoA4)
 ---
 
 ## 마무리
 - 신입생의 마무리
 
-![](https://media.istockphoto.com/vectors/speech-bubble-icons-vector-id1132198794?k=6&m=1132198794&s=612x612&w=0&h=aeI4Vn_8qVR5aOjIPm-v9_a-VP-w3rrz53dhqkyVOmM=)
+    ![talking](https://user-images.githubusercontent.com/10287629/106139437-c6a87800-61b0-11eb-80a5-698bdeb50f9e.png)
 
-![](https://media.istockphoto.com/vectors/woman-with-laptop-studying-or-working-concept-table-with-books-lamp-vector-id1164538944?k=6&m=1164538944&s=612x612&w=0&h=jbDbq7B1RjXr_F-GUoseLBXZcUmgyNAGiTWrycEq6Oo=)
+    ![student](https://user-images.githubusercontent.com/10287629/106139590-fa839d80-61b0-11eb-8854-30e0451a502d.png)
+
 
 - 선생님의 마무리
 
-    ![](https://media.istockphoto.com/vectors/male-teacher-with-pointer-on-lesson-at-blackboard-in-classroom-vector-id1000846882?k=6&m=1000846882&s=612x612&w=0&h=AguybOl8yftiLy8zq0kcInpgRdehC-m4AISm8STzCYg=)
+    ![my_epilog](https://user-images.githubusercontent.com/10287629/106137124-a0cda400-61ad-11eb-9796-f6b260d4c230.png)
+
 
     - 신입생들의 열의에 감사
     
-    ![](https://media.istockphoto.com/illustrations/thank-you-word-cloud-in-different-languages-illustration-id957182248?k=6&m=957182248&s=612x612&w=0&h=4C5gJCpJxCRTMsvdSp5oD5pE-PEXZFfHL4EVcm-XWYs=)
+        ![thanks](https://user-images.githubusercontent.com/10287629/106137279-d4a8c980-61ad-11eb-91a1-ce9a674c30b7.png)
+
 
     - 소비의 도구에서, 생산의 도구로!
     
-    ![](https://media.istockphoto.com/vectors/collection-of-diverse-people-using-the-internet-vector-id1213439252?k=6&m=1213439252&s=612x612&w=0&h=MQQTPqUgCZCg1p5Jh9Wyd8gYDfYI-Fgo6ZfmQz-pwqs=)
+        ![entertaining](https://user-images.githubusercontent.com/10287629/106138719-d83d5000-61af-11eb-80a8-b4c000edc877.png)
+
     
-    ![](https://media.istockphoto.com/vectors/innovation-laptop-assembly-robotic-conveyor-line-vector-id1133276296?k=6&m=1133276296&s=612x612&w=0&h=FafhJ_hqdq2wJ3bcwxdOqLSbEsyHtijNW0x38kfx5hU=)
+        ![productive](https://user-images.githubusercontent.com/10287629/106138858-015de080-61b0-11eb-98b5-8fc32eeb1bed.png)
+
     
-    ![](https://media.istockphoto.com/vectors/communication-elearning-internet-network-as-knowledge-base-vector-id1059510610?k=6&m=1059510610&s=612x612&w=0&h=gnvJziqnOd8j1FbDQ7uXSPMBxNVPHuUQbdq-zzedl0U=)
+        ![productive2](https://user-images.githubusercontent.com/10287629/106138966-2baf9e00-61b0-11eb-8fa5-990ad67a3c8b.png)
+
     
-    - 아무나 할 수 없는 코딩, 누구나 할 수 있는 코딩
+    - 아무나 할 수 없는 코딩,  
+      누구나 할 수 있는 코딩
     
-    ![](https://media.istockphoto.com/vectors/big-data-and-artificial-intelligence-concept-vector-id1040557296?k=6&m=1040557296&s=612x612&w=0&h=5ZHvQ_YW1FTDnpvGs4lVlaa1jKtWqI5poVwTWb992zM=)
+        ![coding](https://user-images.githubusercontent.com/10287629/106139103-57cb1f00-61b0-11eb-805f-aab1d6f0c20a.png)
+
     
     - 끈기와 정성
     
-    ![](https://media.istockphoto.com/vectors/conquering-adversity-vector-id490132495?k=6&m=490132495&s=612x612&w=0&h=ArrW9CJGvEFNzfznUX1LZ_YlLdP2JXKXzFhCIoNFZgo=)
+        ![climb_up1](https://user-images.githubusercontent.com/10287629/106136269-6a435980-61ac-11eb-92dd-1aeeae7607dc.png)
     
-    ![](https://media.istockphoto.com/vectors/competition-vector-id841428946?k=6&m=841428946&s=612x612&w=0&h=Er7vfxz61YBG662yez1p3iciaU6ahBIkJG1L95_aTR4=)
-    
-    ![](https://media.istockphoto.com/vectors/be-positive-patient-and-persistent-inspiring-creative-motivation-vector-id1094918562?k=6&m=1094918562&s=612x612&w=0&h=KG87kxUQFJq4eq5nIZHMyJVfGK9C2xUvMReZVGANJ4s=)
-    
-    ![](https://steemitimages.com/640x0/https://scontent-sea1-1.cdninstagram.com/t51.2885-15/s480x480/e35/c0.90.720.720/17882547_1287183594700533_3866773835571265536_n.jpg?ig_cache_key=MTQ5MTM4MTI5Mjg5MjMxOTg2MA%3D%3D.2.c)
+        ![climb_up2](https://user-images.githubusercontent.com/10287629/106136156-3b2ce800-61ac-11eb-873b-5d664c7b0b53.png)
 
-    - 멋진 대학 생활 되세요!
-    ![](https://media.istockphoto.com/vectors/the-adventure-begins-class-of-2020-vector-id1221605505?k=6&m=1221605505&s=612x612&w=0&h=z0XL36FEc4ddFVxnmU3pI4VYXkhzcMxvcOEovq1Eaxw=)
+        ![patient](https://user-images.githubusercontent.com/10287629/106136005-facd6a00-61ab-11eb-93ea-00ab5c7ed1a9.png)
+
+    
+        ![not_building_owner](https://user-images.githubusercontent.com/10287629/106135832-c8237180-61ab-11eb-88d7-744f6dcdc1f2.png)
+
+    - 지금까지 배운 내용은 기초에 불과하지만,  
+      그것만으로도 많은 것을 할 수 있습니다!
+    ![small_great](https://user-images.githubusercontent.com/10287629/106135392-34ea3c00-61ab-11eb-845f-b9454267ed9b.png)
+        - 부자가 되면 기부할까요?
+        - 지금 그냥 하면 됩니다!
+
+    - 멋진 대학 생활 되시길!
+    ![adventure](https://user-images.githubusercontent.com/10287629/106135626-898db700-61ab-11eb-88ee-44f9fed29777.png)
 
 ---
 
