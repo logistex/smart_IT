@@ -6,6 +6,7 @@
 ## [조언](./4_advice.md)
 ## [웹 사이트 제작](./5_website.md)
 ## [데이터 시각화](./6_visualize_data.md)
+## [마무리](./7_epilog.md)
 
 ---
 
