@@ -978,7 +978,7 @@
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 <br><br>
 
-- 완성된 코드는 [https://github.com/logistex/WEB](https://github.com/logistex/WEB)에서 일괄 다운로드 가능함  
+- 완성된 코드는 [https://github.com/logistex/test0100](https://github.com/logistex/test0100)에서 일괄 다운로드 가능함  
     - 위 링크로 접속하여, 우측 상단에 보이는 초록색 `code`를 클릭하면, 보이는 메뉴에서  
     - `Download Zip` 항목을 클릭하면 내 컴퓨터로 다운로드 가능함
 - 완성된 웹 사이트는 [https://logistex.github.io/test0100/](https://logistex.github.io/test0100/)에서 확인할 수 있음    
