@@ -1,20 +1,27 @@
-# 22학번 빅데이터과 신입생 교육
+# 빅데이터과 신입생 교육
 
 ## [환영 및 인사](./1_greetings.md)
-## [학과 소개](./2_smartIT.md)
+## [학과 소개](./2_big_data.md)
 ## [과정 소개](./3_course.md)
 ## [조언](./4_advice.md)
 ## [웹 사이트 제작](./5_website.md)
-## [데이터 시각화](./6_visualize_data.md)
+## [데이터 과학 소개](./6_visualize_data.md)
 ## [마무리](./7_epilog.md)
 
 ---
 
-[수업에서 완성한 웹 사이트](https://logistex.github.io/test0100/)
+[수업에서 완성할 웹 사이트](https://logistex.github.io/test0100/)
 
 ---
 
-[출석부 확인](https://docs.google.com/spreadsheets/d/19jZ9a173JM_4YZ4iTr9VQ1k6hO2ke1cLCTwI_oG8WWY/edit#gid=0)
+[출석부 확인](https://docs.google.com/spreadsheets/d/1Bx5xXdcmkvvaHV0e-xrcyFfQGbgV5OEA/edit#gid=1170848314)
+
+---
+
+지난 수업 동영상 다시 보기  
+[1/17 (영상 녹화 과정에서 일부분이 유실되었어요ㅠㅠ)](https://www.youtube.com/watch?v=MvrUaOE7tzA&feature=youtu.be)
+
+---
 
 ---
 
