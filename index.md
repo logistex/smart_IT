@@ -16,14 +16,11 @@
 
 [출석부 확인](https://docs.google.com/spreadsheets/d/1Bx5xXdcmkvvaHV0e-xrcyFfQGbgV5OEA/edit#gid=1170848314)
 
----
-
 <strong>지난 수업 동영상</strong>  
 [1/17 (영상 녹화 과정에서 일부분이 유실되었어요ㅠㅠ)](https://www.youtube.com/watch?v=MvrUaOE7tzA&feature=youtu.be)
 
 ---
 
----
 
 [![going home](https://user-images.githubusercontent.com/10287629/104793991-511fcd80-57e8-11eb-86c8-27356c8dd83d.png)](https://logistex.github.io/smart_IT/)
 
